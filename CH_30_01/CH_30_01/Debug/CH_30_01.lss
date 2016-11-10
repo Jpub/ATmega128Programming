@@ -1,0 +1,369 @@
+
+CH_30_01.elf:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .data         00000012  00800100  000001de  00000252  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  1 .text         000001de  00000000  00000000  00000074  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  2 .comment      00000030  00000000  00000000  00000264  2**0
+                  CONTENTS, READONLY
+  3 .note.gnu.avr.deviceinfo 00000040  00000000  00000000  00000294  2**2
+                  CONTENTS, READONLY
+  4 .debug_aranges 00000030  00000000  00000000  000002d4  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  5 .debug_info   00000212  00000000  00000000  00000304  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_abbrev 00000191  00000000  00000000  00000516  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_line   00000192  00000000  00000000  000006a7  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_frame  00000064  00000000  00000000  0000083c  2**2
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_str    000001c4  00000000  00000000  000008a0  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_loc    00000117  00000000  00000000  00000a64  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 11 .debug_ranges 00000038  00000000  00000000  00000b7b  2**0
+                  CONTENTS, READONLY, DEBUGGING
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+   0:	45 c0       	rjmp	.+138    	; 0x8c <__ctors_end>
+   2:	00 00       	nop
+   4:	58 c0       	rjmp	.+176    	; 0xb6 <__bad_interrupt>
+   6:	00 00       	nop
+   8:	56 c0       	rjmp	.+172    	; 0xb6 <__bad_interrupt>
+   a:	00 00       	nop
+   c:	54 c0       	rjmp	.+168    	; 0xb6 <__bad_interrupt>
+   e:	00 00       	nop
+  10:	52 c0       	rjmp	.+164    	; 0xb6 <__bad_interrupt>
+  12:	00 00       	nop
+  14:	50 c0       	rjmp	.+160    	; 0xb6 <__bad_interrupt>
+  16:	00 00       	nop
+  18:	4e c0       	rjmp	.+156    	; 0xb6 <__bad_interrupt>
+  1a:	00 00       	nop
+  1c:	4c c0       	rjmp	.+152    	; 0xb6 <__bad_interrupt>
+  1e:	00 00       	nop
+  20:	4a c0       	rjmp	.+148    	; 0xb6 <__bad_interrupt>
+  22:	00 00       	nop
+  24:	48 c0       	rjmp	.+144    	; 0xb6 <__bad_interrupt>
+  26:	00 00       	nop
+  28:	46 c0       	rjmp	.+140    	; 0xb6 <__bad_interrupt>
+  2a:	00 00       	nop
+  2c:	44 c0       	rjmp	.+136    	; 0xb6 <__bad_interrupt>
+  2e:	00 00       	nop
+  30:	42 c0       	rjmp	.+132    	; 0xb6 <__bad_interrupt>
+  32:	00 00       	nop
+  34:	40 c0       	rjmp	.+128    	; 0xb6 <__bad_interrupt>
+  36:	00 00       	nop
+  38:	3e c0       	rjmp	.+124    	; 0xb6 <__bad_interrupt>
+  3a:	00 00       	nop
+  3c:	3c c0       	rjmp	.+120    	; 0xb6 <__bad_interrupt>
+  3e:	00 00       	nop
+  40:	3a c0       	rjmp	.+116    	; 0xb6 <__bad_interrupt>
+  42:	00 00       	nop
+  44:	38 c0       	rjmp	.+112    	; 0xb6 <__bad_interrupt>
+  46:	00 00       	nop
+  48:	36 c0       	rjmp	.+108    	; 0xb6 <__bad_interrupt>
+  4a:	00 00       	nop
+  4c:	34 c0       	rjmp	.+104    	; 0xb6 <__bad_interrupt>
+  4e:	00 00       	nop
+  50:	32 c0       	rjmp	.+100    	; 0xb6 <__bad_interrupt>
+  52:	00 00       	nop
+  54:	30 c0       	rjmp	.+96     	; 0xb6 <__bad_interrupt>
+  56:	00 00       	nop
+  58:	2e c0       	rjmp	.+92     	; 0xb6 <__bad_interrupt>
+  5a:	00 00       	nop
+  5c:	2c c0       	rjmp	.+88     	; 0xb6 <__bad_interrupt>
+  5e:	00 00       	nop
+  60:	2a c0       	rjmp	.+84     	; 0xb6 <__bad_interrupt>
+  62:	00 00       	nop
+  64:	28 c0       	rjmp	.+80     	; 0xb6 <__bad_interrupt>
+  66:	00 00       	nop
+  68:	26 c0       	rjmp	.+76     	; 0xb6 <__bad_interrupt>
+  6a:	00 00       	nop
+  6c:	24 c0       	rjmp	.+72     	; 0xb6 <__bad_interrupt>
+  6e:	00 00       	nop
+  70:	22 c0       	rjmp	.+68     	; 0xb6 <__bad_interrupt>
+  72:	00 00       	nop
+  74:	20 c0       	rjmp	.+64     	; 0xb6 <__bad_interrupt>
+  76:	00 00       	nop
+  78:	1e c0       	rjmp	.+60     	; 0xb6 <__bad_interrupt>
+  7a:	00 00       	nop
+  7c:	1c c0       	rjmp	.+56     	; 0xb6 <__bad_interrupt>
+  7e:	00 00       	nop
+  80:	1a c0       	rjmp	.+52     	; 0xb6 <__bad_interrupt>
+  82:	00 00       	nop
+  84:	18 c0       	rjmp	.+48     	; 0xb6 <__bad_interrupt>
+  86:	00 00       	nop
+  88:	16 c0       	rjmp	.+44     	; 0xb6 <__bad_interrupt>
+	...
+
+0000008c <__ctors_end>:
+  8c:	11 24       	eor	r1, r1
+  8e:	1f be       	out	0x3f, r1	; 63
+  90:	cf ef       	ldi	r28, 0xFF	; 255
+  92:	d0 e1       	ldi	r29, 0x10	; 16
+  94:	de bf       	out	0x3e, r29	; 62
+  96:	cd bf       	out	0x3d, r28	; 61
+
+00000098 <__do_copy_data>:
+  98:	11 e0       	ldi	r17, 0x01	; 1
+  9a:	a0 e0       	ldi	r26, 0x00	; 0
+  9c:	b1 e0       	ldi	r27, 0x01	; 1
+  9e:	ee ed       	ldi	r30, 0xDE	; 222
+  a0:	f1 e0       	ldi	r31, 0x01	; 1
+  a2:	00 e0       	ldi	r16, 0x00	; 0
+  a4:	0b bf       	out	0x3b, r16	; 59
+  a6:	02 c0       	rjmp	.+4      	; 0xac <__do_copy_data+0x14>
+  a8:	07 90       	elpm	r0, Z+
+  aa:	0d 92       	st	X+, r0
+  ac:	a2 31       	cpi	r26, 0x12	; 18
+  ae:	b1 07       	cpc	r27, r17
+  b0:	d9 f7       	brne	.-10     	; 0xa8 <__do_copy_data+0x10>
+  b2:	47 d0       	rcall	.+142    	; 0x142 <main>
+  b4:	92 c0       	rjmp	.+292    	; 0x1da <_exit>
+
+000000b6 <__bad_interrupt>:
+  b6:	a4 cf       	rjmp	.-184    	; 0x0 <__vectors>
+
+000000b8 <init_music>:
+
+const int melody[] = {C4, D4, E4, F4, G4, A4, B4, C5, PAUSE};
+
+void init_music()
+{
+	DDRB |= (1 << PB6); 			// PBB 핀(OC1B 핀)을 출력으로 설정
+  b8:	be 9a       	sbi	0x17, 6	; 23
+	
+	// COM1Bn = 01 : 비교일치 발생 시 출력 반전
+	TCCR1A |= _BV(COM1B0);
+  ba:	8f b5       	in	r24, 0x2f	; 47
+  bc:	80 61       	ori	r24, 0x10	; 16
+  be:	8f bd       	out	0x2f, r24	; 47
+	
+	// WGM1n = 0100 : 4번 CTC 모드
+	// CS1n = 010 : 분주비 8
+	TCCR1B |= _BV(WGM12) | _BV(CS11);
+  c0:	8e b5       	in	r24, 0x2e	; 46
+  c2:	8a 60       	ori	r24, 0x0A	; 10
+  c4:	8e bd       	out	0x2e, r24	; 46
+  c6:	08 95       	ret
+
+000000c8 <play_music>:
+}
+
+void play_music(const int* pMusicNotes)
+{
+  c8:	cf 92       	push	r12
+  ca:	df 92       	push	r13
+  cc:	ef 92       	push	r14
+  ce:	ff 92       	push	r15
+  d0:	cf 93       	push	r28
+  d2:	df 93       	push	r29
+	int note;
+
+	while(*pMusicNotes){
+  d4:	fc 01       	movw	r30, r24
+  d6:	20 81       	ld	r18, Z
+  d8:	31 81       	ldd	r19, Z+1	; 0x01
+  da:	21 15       	cp	r18, r1
+  dc:	31 05       	cpc	r19, r1
+  de:	41 f1       	breq	.+80     	; 0x130 <play_music+0x68>
+  e0:	ec 01       	movw	r28, r24
+  e2:	22 96       	adiw	r28, 0x02	; 2
+		if(note == PAUSE){
+			OCR1A = 0;			// 재생 중지, 듀티 사이클 0%
+		}
+		else{
+			// 재생 주파수 계산
+			int ocr_value = F_CPU / 2 / PRESCALER / note;
+  e4:	0f 2e       	mov	r0, r31
+  e6:	f0 e4       	ldi	r31, 0x40	; 64
+  e8:	cf 2e       	mov	r12, r31
+  ea:	f2 e4       	ldi	r31, 0x42	; 66
+  ec:	df 2e       	mov	r13, r31
+  ee:	ff e0       	ldi	r31, 0x0F	; 15
+  f0:	ef 2e       	mov	r14, r31
+  f2:	f1 2c       	mov	r15, r1
+  f4:	f0 2d       	mov	r31, r0
+
+	while(*pMusicNotes){
+		note = *pMusicNotes;
+		pMusicNotes++;
+
+		if(note == PAUSE){
+  f6:	21 15       	cp	r18, r1
+  f8:	31 05       	cpc	r19, r1
+  fa:	19 f4       	brne	.+6      	; 0x102 <play_music+0x3a>
+			OCR1A = 0;			// 재생 중지, 듀티 사이클 0%
+  fc:	1b bc       	out	0x2b, r1	; 43
+  fe:	1a bc       	out	0x2a, r1	; 42
+ 100:	09 c0       	rjmp	.+18     	; 0x114 <play_music+0x4c>
+		}
+		else{
+			// 재생 주파수 계산
+			int ocr_value = F_CPU / 2 / PRESCALER / note;
+ 102:	03 2e       	mov	r0, r19
+ 104:	00 0c       	add	r0, r0
+ 106:	44 0b       	sbc	r20, r20
+ 108:	55 0b       	sbc	r21, r21
+ 10a:	c7 01       	movw	r24, r14
+ 10c:	b6 01       	movw	r22, r12
+ 10e:	27 d0       	rcall	.+78     	; 0x15e <__divmodsi4>
+
+			// 재생 주파수 설정
+			OCR1A = ocr_value;
+ 110:	3b bd       	out	0x2b, r19	; 43
+ 112:	2a bd       	out	0x2a, r18	; 42
+	#else
+		//round up by default
+		__ticks_dc = (uint32_t)(ceil(fabs(__tmp)));
+	#endif
+
+	__builtin_avr_delay_cycles(__ticks_dc);
+ 114:	ff ef       	ldi	r31, 0xFF	; 255
+ 116:	29 e6       	ldi	r18, 0x69	; 105
+ 118:	88 e1       	ldi	r24, 0x18	; 24
+ 11a:	f1 50       	subi	r31, 0x01	; 1
+ 11c:	20 40       	sbci	r18, 0x00	; 0
+ 11e:	80 40       	sbci	r24, 0x00	; 0
+ 120:	e1 f7       	brne	.-8      	; 0x11a <play_music+0x52>
+ 122:	00 c0       	rjmp	.+0      	; 0x124 <play_music+0x5c>
+ 124:	00 00       	nop
+
+void play_music(const int* pMusicNotes)
+{
+	int note;
+
+	while(*pMusicNotes){
+ 126:	29 91       	ld	r18, Y+
+ 128:	39 91       	ld	r19, Y+
+ 12a:	21 15       	cp	r18, r1
+ 12c:	31 05       	cpc	r19, r1
+ 12e:	19 f7       	brne	.-58     	; 0xf6 <play_music+0x2e>
+		}
+
+		_delay_ms(500);			// 0.5초 간격으로 단음 재생
+	}
+
+	OCR1A = 0;
+ 130:	1b bc       	out	0x2b, r1	; 43
+ 132:	1a bc       	out	0x2a, r1	; 42
+}
+ 134:	df 91       	pop	r29
+ 136:	cf 91       	pop	r28
+ 138:	ff 90       	pop	r15
+ 13a:	ef 90       	pop	r14
+ 13c:	df 90       	pop	r13
+ 13e:	cf 90       	pop	r12
+ 140:	08 95       	ret
+
+00000142 <main>:
+
+int main()
+{
+	init_music();				// 포트 및 타이머 설정
+ 142:	ba df       	rcall	.-140    	; 0xb8 <init_music>
+	
+	while(1)
+	{
+		play_music(melody);
+ 144:	80 e0       	ldi	r24, 0x00	; 0
+ 146:	91 e0       	ldi	r25, 0x01	; 1
+ 148:	bf df       	rcall	.-130    	; 0xc8 <play_music>
+ 14a:	2f ef       	ldi	r18, 0xFF	; 255
+ 14c:	83 ed       	ldi	r24, 0xD3	; 211
+ 14e:	90 e3       	ldi	r25, 0x30	; 48
+ 150:	21 50       	subi	r18, 0x01	; 1
+ 152:	80 40       	sbci	r24, 0x00	; 0
+ 154:	90 40       	sbci	r25, 0x00	; 0
+ 156:	e1 f7       	brne	.-8      	; 0x150 <main+0xe>
+ 158:	00 c0       	rjmp	.+0      	; 0x15a <main+0x18>
+ 15a:	00 00       	nop
+ 15c:	f3 cf       	rjmp	.-26     	; 0x144 <main+0x2>
+
+0000015e <__divmodsi4>:
+ 15e:	05 2e       	mov	r0, r21
+ 160:	97 fb       	bst	r25, 7
+ 162:	16 f4       	brtc	.+4      	; 0x168 <__divmodsi4+0xa>
+ 164:	00 94       	com	r0
+ 166:	0f d0       	rcall	.+30     	; 0x186 <__negsi2>
+ 168:	57 fd       	sbrc	r21, 7
+ 16a:	05 d0       	rcall	.+10     	; 0x176 <__divmodsi4_neg2>
+ 16c:	14 d0       	rcall	.+40     	; 0x196 <__udivmodsi4>
+ 16e:	07 fc       	sbrc	r0, 7
+ 170:	02 d0       	rcall	.+4      	; 0x176 <__divmodsi4_neg2>
+ 172:	46 f4       	brtc	.+16     	; 0x184 <__divmodsi4_exit>
+ 174:	08 c0       	rjmp	.+16     	; 0x186 <__negsi2>
+
+00000176 <__divmodsi4_neg2>:
+ 176:	50 95       	com	r21
+ 178:	40 95       	com	r20
+ 17a:	30 95       	com	r19
+ 17c:	21 95       	neg	r18
+ 17e:	3f 4f       	sbci	r19, 0xFF	; 255
+ 180:	4f 4f       	sbci	r20, 0xFF	; 255
+ 182:	5f 4f       	sbci	r21, 0xFF	; 255
+
+00000184 <__divmodsi4_exit>:
+ 184:	08 95       	ret
+
+00000186 <__negsi2>:
+ 186:	90 95       	com	r25
+ 188:	80 95       	com	r24
+ 18a:	70 95       	com	r23
+ 18c:	61 95       	neg	r22
+ 18e:	7f 4f       	sbci	r23, 0xFF	; 255
+ 190:	8f 4f       	sbci	r24, 0xFF	; 255
+ 192:	9f 4f       	sbci	r25, 0xFF	; 255
+ 194:	08 95       	ret
+
+00000196 <__udivmodsi4>:
+ 196:	a1 e2       	ldi	r26, 0x21	; 33
+ 198:	1a 2e       	mov	r1, r26
+ 19a:	aa 1b       	sub	r26, r26
+ 19c:	bb 1b       	sub	r27, r27
+ 19e:	fd 01       	movw	r30, r26
+ 1a0:	0d c0       	rjmp	.+26     	; 0x1bc <__udivmodsi4_ep>
+
+000001a2 <__udivmodsi4_loop>:
+ 1a2:	aa 1f       	adc	r26, r26
+ 1a4:	bb 1f       	adc	r27, r27
+ 1a6:	ee 1f       	adc	r30, r30
+ 1a8:	ff 1f       	adc	r31, r31
+ 1aa:	a2 17       	cp	r26, r18
+ 1ac:	b3 07       	cpc	r27, r19
+ 1ae:	e4 07       	cpc	r30, r20
+ 1b0:	f5 07       	cpc	r31, r21
+ 1b2:	20 f0       	brcs	.+8      	; 0x1bc <__udivmodsi4_ep>
+ 1b4:	a2 1b       	sub	r26, r18
+ 1b6:	b3 0b       	sbc	r27, r19
+ 1b8:	e4 0b       	sbc	r30, r20
+ 1ba:	f5 0b       	sbc	r31, r21
+
+000001bc <__udivmodsi4_ep>:
+ 1bc:	66 1f       	adc	r22, r22
+ 1be:	77 1f       	adc	r23, r23
+ 1c0:	88 1f       	adc	r24, r24
+ 1c2:	99 1f       	adc	r25, r25
+ 1c4:	1a 94       	dec	r1
+ 1c6:	69 f7       	brne	.-38     	; 0x1a2 <__udivmodsi4_loop>
+ 1c8:	60 95       	com	r22
+ 1ca:	70 95       	com	r23
+ 1cc:	80 95       	com	r24
+ 1ce:	90 95       	com	r25
+ 1d0:	9b 01       	movw	r18, r22
+ 1d2:	ac 01       	movw	r20, r24
+ 1d4:	bd 01       	movw	r22, r26
+ 1d6:	cf 01       	movw	r24, r30
+ 1d8:	08 95       	ret
+
+000001da <_exit>:
+ 1da:	f8 94       	cli
+
+000001dc <__stop_program>:
+ 1dc:	ff cf       	rjmp	.-2      	; 0x1dc <__stop_program>

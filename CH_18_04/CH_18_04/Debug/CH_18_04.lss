@@ -1,0 +1,244 @@
+
+CH_18_04.elf:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .data         0000000a  00800100  0000014c  000001c0  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  1 .text         0000014c  00000000  00000000  00000074  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  2 .comment      00000030  00000000  00000000  000001ca  2**0
+                  CONTENTS, READONLY
+  3 .note.gnu.avr.deviceinfo 00000040  00000000  00000000  000001fc  2**2
+                  CONTENTS, READONLY
+  4 .debug_aranges 00000028  00000000  00000000  0000023c  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  5 .debug_info   000002ac  00000000  00000000  00000264  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_abbrev 00000145  00000000  00000000  00000510  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_line   00000192  00000000  00000000  00000655  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_frame  00000034  00000000  00000000  000007e8  2**2
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_str    000001a9  00000000  00000000  0000081c  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_loc    00000033  00000000  00000000  000009c5  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 11 .debug_ranges 00000018  00000000  00000000  000009f8  2**0
+                  CONTENTS, READONLY, DEBUGGING
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+   0:	45 c0       	rjmp	.+138    	; 0x8c <__ctors_end>
+   2:	00 00       	nop
+   4:	58 c0       	rjmp	.+176    	; 0xb6 <__bad_interrupt>
+   6:	00 00       	nop
+   8:	56 c0       	rjmp	.+172    	; 0xb6 <__bad_interrupt>
+   a:	00 00       	nop
+   c:	54 c0       	rjmp	.+168    	; 0xb6 <__bad_interrupt>
+   e:	00 00       	nop
+  10:	52 c0       	rjmp	.+164    	; 0xb6 <__bad_interrupt>
+  12:	00 00       	nop
+  14:	50 c0       	rjmp	.+160    	; 0xb6 <__bad_interrupt>
+  16:	00 00       	nop
+  18:	4e c0       	rjmp	.+156    	; 0xb6 <__bad_interrupt>
+  1a:	00 00       	nop
+  1c:	4c c0       	rjmp	.+152    	; 0xb6 <__bad_interrupt>
+  1e:	00 00       	nop
+  20:	4a c0       	rjmp	.+148    	; 0xb6 <__bad_interrupt>
+  22:	00 00       	nop
+  24:	48 c0       	rjmp	.+144    	; 0xb6 <__bad_interrupt>
+  26:	00 00       	nop
+  28:	46 c0       	rjmp	.+140    	; 0xb6 <__bad_interrupt>
+  2a:	00 00       	nop
+  2c:	44 c0       	rjmp	.+136    	; 0xb6 <__bad_interrupt>
+  2e:	00 00       	nop
+  30:	42 c0       	rjmp	.+132    	; 0xb6 <__bad_interrupt>
+  32:	00 00       	nop
+  34:	40 c0       	rjmp	.+128    	; 0xb6 <__bad_interrupt>
+  36:	00 00       	nop
+  38:	3e c0       	rjmp	.+124    	; 0xb6 <__bad_interrupt>
+  3a:	00 00       	nop
+  3c:	3c c0       	rjmp	.+120    	; 0xb6 <__bad_interrupt>
+  3e:	00 00       	nop
+  40:	3a c0       	rjmp	.+116    	; 0xb6 <__bad_interrupt>
+  42:	00 00       	nop
+  44:	38 c0       	rjmp	.+112    	; 0xb6 <__bad_interrupt>
+  46:	00 00       	nop
+  48:	36 c0       	rjmp	.+108    	; 0xb6 <__bad_interrupt>
+  4a:	00 00       	nop
+  4c:	34 c0       	rjmp	.+104    	; 0xb6 <__bad_interrupt>
+  4e:	00 00       	nop
+  50:	32 c0       	rjmp	.+100    	; 0xb6 <__bad_interrupt>
+  52:	00 00       	nop
+  54:	30 c0       	rjmp	.+96     	; 0xb6 <__bad_interrupt>
+  56:	00 00       	nop
+  58:	2e c0       	rjmp	.+92     	; 0xb6 <__bad_interrupt>
+  5a:	00 00       	nop
+  5c:	2c c0       	rjmp	.+88     	; 0xb6 <__bad_interrupt>
+  5e:	00 00       	nop
+  60:	2a c0       	rjmp	.+84     	; 0xb6 <__bad_interrupt>
+  62:	00 00       	nop
+  64:	28 c0       	rjmp	.+80     	; 0xb6 <__bad_interrupt>
+  66:	00 00       	nop
+  68:	26 c0       	rjmp	.+76     	; 0xb6 <__bad_interrupt>
+  6a:	00 00       	nop
+  6c:	24 c0       	rjmp	.+72     	; 0xb6 <__bad_interrupt>
+  6e:	00 00       	nop
+  70:	22 c0       	rjmp	.+68     	; 0xb6 <__bad_interrupt>
+  72:	00 00       	nop
+  74:	20 c0       	rjmp	.+64     	; 0xb6 <__bad_interrupt>
+  76:	00 00       	nop
+  78:	1e c0       	rjmp	.+60     	; 0xb6 <__bad_interrupt>
+  7a:	00 00       	nop
+  7c:	1c c0       	rjmp	.+56     	; 0xb6 <__bad_interrupt>
+  7e:	00 00       	nop
+  80:	1a c0       	rjmp	.+52     	; 0xb6 <__bad_interrupt>
+  82:	00 00       	nop
+  84:	18 c0       	rjmp	.+48     	; 0xb6 <__bad_interrupt>
+  86:	00 00       	nop
+  88:	16 c0       	rjmp	.+44     	; 0xb6 <__bad_interrupt>
+	...
+
+0000008c <__ctors_end>:
+  8c:	11 24       	eor	r1, r1
+  8e:	1f be       	out	0x3f, r1	; 63
+  90:	cf ef       	ldi	r28, 0xFF	; 255
+  92:	d0 e1       	ldi	r29, 0x10	; 16
+  94:	de bf       	out	0x3e, r29	; 62
+  96:	cd bf       	out	0x3d, r28	; 61
+
+00000098 <__do_copy_data>:
+  98:	11 e0       	ldi	r17, 0x01	; 1
+  9a:	a0 e0       	ldi	r26, 0x00	; 0
+  9c:	b1 e0       	ldi	r27, 0x01	; 1
+  9e:	ec e4       	ldi	r30, 0x4C	; 76
+  a0:	f1 e0       	ldi	r31, 0x01	; 1
+  a2:	00 e0       	ldi	r16, 0x00	; 0
+  a4:	0b bf       	out	0x3b, r16	; 59
+  a6:	02 c0       	rjmp	.+4      	; 0xac <__do_copy_data+0x14>
+  a8:	07 90       	elpm	r0, Z+
+  aa:	0d 92       	st	X+, r0
+  ac:	aa 30       	cpi	r26, 0x0A	; 10
+  ae:	b1 07       	cpc	r27, r17
+  b0:	d9 f7       	brne	.-10     	; 0xa8 <__do_copy_data+0x10>
+  b2:	19 d0       	rcall	.+50     	; 0xe6 <main>
+  b4:	49 c0       	rjmp	.+146    	; 0x148 <_exit>
+
+000000b6 <__bad_interrupt>:
+  b6:	a4 cf       	rjmp	.-184    	; 0x0 <__vectors>
+
+000000b8 <display_digit>:
+
+void display_digit(int position, int number)
+{
+	// position : 출력할 자리 (1 ~ 4)
+	// number : 출력할 숫자 (0 ~ 9)
+	PORTC |= 0x0F;
+  b8:	25 b3       	in	r18, 0x15	; 21
+  ba:	2f 60       	ori	r18, 0x0F	; 15
+  bc:	25 bb       	out	0x15, r18	; 21
+	PORTC &= ~(1 << (position - 1));	// 자리 선택
+  be:	45 b3       	in	r20, 0x15	; 21
+  c0:	01 97       	sbiw	r24, 0x01	; 1
+  c2:	21 e0       	ldi	r18, 0x01	; 1
+  c4:	30 e0       	ldi	r19, 0x00	; 0
+  c6:	f9 01       	movw	r30, r18
+  c8:	02 c0       	rjmp	.+4      	; 0xce <display_digit+0x16>
+  ca:	ee 0f       	add	r30, r30
+  cc:	ff 1f       	adc	r31, r31
+  ce:	8a 95       	dec	r24
+  d0:	e2 f7       	brpl	.-8      	; 0xca <display_digit+0x12>
+  d2:	cf 01       	movw	r24, r30
+  d4:	80 95       	com	r24
+  d6:	84 23       	and	r24, r20
+  d8:	85 bb       	out	0x15, r24	; 21
+	
+	PORTD = numbers[number];		// 숫자 출력
+  da:	fb 01       	movw	r30, r22
+  dc:	e0 50       	subi	r30, 0x00	; 0
+  de:	ff 4f       	sbci	r31, 0xFF	; 255
+  e0:	80 81       	ld	r24, Z
+  e2:	82 bb       	out	0x12, r24	; 18
+  e4:	08 95       	ret
+
+000000e6 <main>:
+}
+
+int main(void)
+{
+	DDRD = 0xFF;				// 세그먼트 제어 핀 8개를 출력으로 설정
+  e6:	8f ef       	ldi	r24, 0xFF	; 255
+  e8:	81 bb       	out	0x11, r24	; 17
+	DDRC = 0x0F;				// 자릿수 선택 핀 4개를 출력으로 설정
+  ea:	8f e0       	ldi	r24, 0x0F	; 15
+  ec:	84 bb       	out	0x14, r24	; 20
+	
+	while(1)
+	{
+		display_digit(1, 1);			// 첫 번째 자리에 ‘1’ 출력
+  ee:	61 e0       	ldi	r22, 0x01	; 1
+  f0:	70 e0       	ldi	r23, 0x00	; 0
+  f2:	81 e0       	ldi	r24, 0x01	; 1
+  f4:	90 e0       	ldi	r25, 0x00	; 0
+  f6:	e0 df       	rcall	.-64     	; 0xb8 <display_digit>
+	#else
+		//round up by default
+		__ticks_dc = (uint32_t)(ceil(fabs(__tmp)));
+	#endif
+
+	__builtin_avr_delay_cycles(__ticks_dc);
+  f8:	8f e1       	ldi	r24, 0x1F	; 31
+  fa:	9e e4       	ldi	r25, 0x4E	; 78
+  fc:	01 97       	sbiw	r24, 0x01	; 1
+  fe:	f1 f7       	brne	.-4      	; 0xfc <main+0x16>
+ 100:	00 c0       	rjmp	.+0      	; 0x102 <main+0x1c>
+ 102:	00 00       	nop
+		_delay_ms(SEGMENT_DELAY);
+		display_digit(2, 2);			// 두 번째 자리에 ‘2’ 출력
+ 104:	62 e0       	ldi	r22, 0x02	; 2
+ 106:	70 e0       	ldi	r23, 0x00	; 0
+ 108:	82 e0       	ldi	r24, 0x02	; 2
+ 10a:	90 e0       	ldi	r25, 0x00	; 0
+ 10c:	d5 df       	rcall	.-86     	; 0xb8 <display_digit>
+ 10e:	8f e1       	ldi	r24, 0x1F	; 31
+ 110:	9e e4       	ldi	r25, 0x4E	; 78
+ 112:	01 97       	sbiw	r24, 0x01	; 1
+ 114:	f1 f7       	brne	.-4      	; 0x112 <main+0x2c>
+ 116:	00 c0       	rjmp	.+0      	; 0x118 <main+0x32>
+ 118:	00 00       	nop
+		_delay_ms(SEGMENT_DELAY);
+		display_digit(3, 3);			// 세 번째 자리에 ‘3’ 출력
+ 11a:	63 e0       	ldi	r22, 0x03	; 3
+ 11c:	70 e0       	ldi	r23, 0x00	; 0
+ 11e:	83 e0       	ldi	r24, 0x03	; 3
+ 120:	90 e0       	ldi	r25, 0x00	; 0
+ 122:	ca df       	rcall	.-108    	; 0xb8 <display_digit>
+ 124:	8f e1       	ldi	r24, 0x1F	; 31
+ 126:	9e e4       	ldi	r25, 0x4E	; 78
+ 128:	01 97       	sbiw	r24, 0x01	; 1
+ 12a:	f1 f7       	brne	.-4      	; 0x128 <main+0x42>
+ 12c:	00 c0       	rjmp	.+0      	; 0x12e <main+0x48>
+ 12e:	00 00       	nop
+		_delay_ms(SEGMENT_DELAY);
+		display_digit(4, 4);			// 네 번째 자리에 ‘4’ 출력
+ 130:	64 e0       	ldi	r22, 0x04	; 4
+ 132:	70 e0       	ldi	r23, 0x00	; 0
+ 134:	84 e0       	ldi	r24, 0x04	; 4
+ 136:	90 e0       	ldi	r25, 0x00	; 0
+ 138:	bf df       	rcall	.-130    	; 0xb8 <display_digit>
+ 13a:	8f e1       	ldi	r24, 0x1F	; 31
+ 13c:	9e e4       	ldi	r25, 0x4E	; 78
+ 13e:	01 97       	sbiw	r24, 0x01	; 1
+ 140:	f1 f7       	brne	.-4      	; 0x13e <main+0x58>
+ 142:	00 c0       	rjmp	.+0      	; 0x144 <main+0x5e>
+ 144:	00 00       	nop
+ 146:	d3 cf       	rjmp	.-90     	; 0xee <main+0x8>
+
+00000148 <_exit>:
+ 148:	f8 94       	cli
+
+0000014a <__stop_program>:
+ 14a:	ff cf       	rjmp	.-2      	; 0x14a <__stop_program>

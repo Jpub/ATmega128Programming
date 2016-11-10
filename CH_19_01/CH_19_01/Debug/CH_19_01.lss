@@ -1,0 +1,244 @@
+
+CH_19_01.elf:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .data         00000000  00800100  00800100  00000168  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  1 .text         00000114  00000000  00000000  00000054  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  2 .comment      00000030  00000000  00000000  00000168  2**0
+                  CONTENTS, READONLY
+  3 .note.gnu.avr.deviceinfo 00000040  00000000  00000000  00000198  2**2
+                  CONTENTS, READONLY
+  4 .debug_aranges 00000038  00000000  00000000  000001d8  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  5 .debug_info   000001be  00000000  00000000  00000210  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_abbrev 00000139  00000000  00000000  000003ce  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_line   000001ca  00000000  00000000  00000507  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_frame  00000060  00000000  00000000  000006d4  2**2
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_str    000001b1  00000000  00000000  00000734  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_loc    000000b8  00000000  00000000  000008e5  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 11 .debug_ranges 00000028  00000000  00000000  0000099d  2**0
+                  CONTENTS, READONLY, DEBUGGING
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+   0:	45 c0       	rjmp	.+138    	; 0x8c <__ctors_end>
+   2:	00 00       	nop
+   4:	4b c0       	rjmp	.+150    	; 0x9c <__bad_interrupt>
+   6:	00 00       	nop
+   8:	49 c0       	rjmp	.+146    	; 0x9c <__bad_interrupt>
+   a:	00 00       	nop
+   c:	47 c0       	rjmp	.+142    	; 0x9c <__bad_interrupt>
+   e:	00 00       	nop
+  10:	45 c0       	rjmp	.+138    	; 0x9c <__bad_interrupt>
+  12:	00 00       	nop
+  14:	43 c0       	rjmp	.+134    	; 0x9c <__bad_interrupt>
+  16:	00 00       	nop
+  18:	41 c0       	rjmp	.+130    	; 0x9c <__bad_interrupt>
+  1a:	00 00       	nop
+  1c:	3f c0       	rjmp	.+126    	; 0x9c <__bad_interrupt>
+  1e:	00 00       	nop
+  20:	3d c0       	rjmp	.+122    	; 0x9c <__bad_interrupt>
+  22:	00 00       	nop
+  24:	3b c0       	rjmp	.+118    	; 0x9c <__bad_interrupt>
+  26:	00 00       	nop
+  28:	39 c0       	rjmp	.+114    	; 0x9c <__bad_interrupt>
+  2a:	00 00       	nop
+  2c:	37 c0       	rjmp	.+110    	; 0x9c <__bad_interrupt>
+  2e:	00 00       	nop
+  30:	35 c0       	rjmp	.+106    	; 0x9c <__bad_interrupt>
+  32:	00 00       	nop
+  34:	33 c0       	rjmp	.+102    	; 0x9c <__bad_interrupt>
+  36:	00 00       	nop
+  38:	31 c0       	rjmp	.+98     	; 0x9c <__bad_interrupt>
+  3a:	00 00       	nop
+  3c:	2f c0       	rjmp	.+94     	; 0x9c <__bad_interrupt>
+  3e:	00 00       	nop
+  40:	2d c0       	rjmp	.+90     	; 0x9c <__bad_interrupt>
+  42:	00 00       	nop
+  44:	2b c0       	rjmp	.+86     	; 0x9c <__bad_interrupt>
+  46:	00 00       	nop
+  48:	29 c0       	rjmp	.+82     	; 0x9c <__bad_interrupt>
+  4a:	00 00       	nop
+  4c:	27 c0       	rjmp	.+78     	; 0x9c <__bad_interrupt>
+  4e:	00 00       	nop
+  50:	25 c0       	rjmp	.+74     	; 0x9c <__bad_interrupt>
+  52:	00 00       	nop
+  54:	23 c0       	rjmp	.+70     	; 0x9c <__bad_interrupt>
+  56:	00 00       	nop
+  58:	21 c0       	rjmp	.+66     	; 0x9c <__bad_interrupt>
+  5a:	00 00       	nop
+  5c:	1f c0       	rjmp	.+62     	; 0x9c <__bad_interrupt>
+  5e:	00 00       	nop
+  60:	1d c0       	rjmp	.+58     	; 0x9c <__bad_interrupt>
+  62:	00 00       	nop
+  64:	1b c0       	rjmp	.+54     	; 0x9c <__bad_interrupt>
+  66:	00 00       	nop
+  68:	19 c0       	rjmp	.+50     	; 0x9c <__bad_interrupt>
+  6a:	00 00       	nop
+  6c:	17 c0       	rjmp	.+46     	; 0x9c <__bad_interrupt>
+  6e:	00 00       	nop
+  70:	15 c0       	rjmp	.+42     	; 0x9c <__bad_interrupt>
+  72:	00 00       	nop
+  74:	13 c0       	rjmp	.+38     	; 0x9c <__bad_interrupt>
+  76:	00 00       	nop
+  78:	11 c0       	rjmp	.+34     	; 0x9c <__bad_interrupt>
+  7a:	00 00       	nop
+  7c:	0f c0       	rjmp	.+30     	; 0x9c <__bad_interrupt>
+  7e:	00 00       	nop
+  80:	0d c0       	rjmp	.+26     	; 0x9c <__bad_interrupt>
+  82:	00 00       	nop
+  84:	0b c0       	rjmp	.+22     	; 0x9c <__bad_interrupt>
+  86:	00 00       	nop
+  88:	09 c0       	rjmp	.+18     	; 0x9c <__bad_interrupt>
+	...
+
+0000008c <__ctors_end>:
+  8c:	11 24       	eor	r1, r1
+  8e:	1f be       	out	0x3f, r1	; 63
+  90:	cf ef       	ldi	r28, 0xFF	; 255
+  92:	d0 e1       	ldi	r29, 0x10	; 16
+  94:	de bf       	out	0x3e, r29	; 62
+  96:	cd bf       	out	0x3d, r28	; 61
+  98:	19 d0       	rcall	.+50     	; 0xcc <main>
+  9a:	3a c0       	rjmp	.+116    	; 0x110 <_exit>
+
+0000009c <__bad_interrupt>:
+  9c:	b1 cf       	rjmp	.-158    	; 0x0 <__vectors>
+
+0000009e <ShiftClock>:
+#define LATCH_CLOCK		1
+#define DATA			2
+
+void ShiftClock(void)
+{
+	set_bit(SHIFT_CLOCK);			// 이동 클록을 HIGH로
+  9e:	c0 9a       	sbi	0x18, 0	; 24
+	clear_bit(SHIFT_CLOCK);		// 이동 클록을 LOW로
+  a0:	c0 98       	cbi	0x18, 0	; 24
+  a2:	08 95       	ret
+
+000000a4 <LatchClock>:
+}
+
+void LatchClock(void)
+{
+	set_bit(LATCH_CLOCK);			// 래치 클록을 HIGH로
+  a4:	c1 9a       	sbi	0x18, 1	; 24
+	clear_bit(LATCH_CLOCK);		// 래치 클록을 LOW로
+  a6:	c1 98       	cbi	0x18, 1	; 24
+  a8:	08 95       	ret
+
+000000aa <ByteDataWrite>:
+}
+
+void ByteDataWrite(uint8_t data)		// 1 바이트 데이터 출력
+{
+  aa:	cf 93       	push	r28
+  ac:	df 93       	push	r29
+  ae:	d8 2f       	mov	r29, r24
+  b0:	c8 e0       	ldi	r28, 0x08	; 8
+	for(uint8_t i = 0; i < 8; i++){
+		if(data & 0b10000000) 		// MSB부터 1비트 출력
+  b2:	dd 23       	and	r29, r29
+  b4:	14 f4       	brge	.+4      	; 0xba <ByteDataWrite+0x10>
+		set_bit(DATA);
+  b6:	c2 9a       	sbi	0x18, 2	; 24
+  b8:	01 c0       	rjmp	.+2      	; 0xbc <ByteDataWrite+0x12>
+		else
+		clear_bit(DATA);
+  ba:	c2 98       	cbi	0x18, 2	; 24
+		
+		ShiftClock();				// 1비트 출력 후 비트 이동
+  bc:	f0 df       	rcall	.-32     	; 0x9e <ShiftClock>
+		data = data << 1;			// 다음 출력할 비트를 MSB로 이동
+  be:	dd 0f       	add	r29, r29
+  c0:	c1 50       	subi	r28, 0x01	; 1
+	clear_bit(LATCH_CLOCK);		// 래치 클록을 LOW로
+}
+
+void ByteDataWrite(uint8_t data)		// 1 바이트 데이터 출력
+{
+	for(uint8_t i = 0; i < 8; i++){
+  c2:	b9 f7       	brne	.-18     	; 0xb2 <ByteDataWrite+0x8>
+		
+		ShiftClock();				// 1비트 출력 후 비트 이동
+		data = data << 1;			// 다음 출력할 비트를 MSB로 이동
+	}
+	
+	LatchClock();				// 1바이트 전달 후 실제 출력 발생
+  c4:	ef df       	rcall	.-34     	; 0xa4 <LatchClock>
+}
+  c6:	df 91       	pop	r29
+  c8:	cf 91       	pop	r28
+  ca:	08 95       	ret
+
+000000cc <main>:
+
+int main(void)
+{
+	// 제어 및 데이터 핀을 출력으로 설정
+	DDRB |= _BV(SHIFT_CLOCK) | _BV(LATCH_CLOCK) | _BV(DATA);
+  cc:	87 b3       	in	r24, 0x17	; 23
+  ce:	87 60       	ori	r24, 0x07	; 7
+  d0:	87 bb       	out	0x17, r24	; 23
+
+	uint8_t index = 0;			// 켜질 LED의 위치
+  d2:	c0 e0       	ldi	r28, 0x00	; 0
+	while (1)
+	{
+		uint8_t pattern = 1 << index;		// 출력 패턴 결정
+  d4:	d1 e0       	ldi	r29, 0x01	; 1
+  d6:	2c 2f       	mov	r18, r28
+  d8:	30 e0       	ldi	r19, 0x00	; 0
+		index = (index + 1) % 8;		// 출력 패턴에서의 위치 결정
+  da:	c9 01       	movw	r24, r18
+  dc:	01 96       	adiw	r24, 0x01	; 1
+  de:	87 70       	andi	r24, 0x07	; 7
+  e0:	90 78       	andi	r25, 0x80	; 128
+  e2:	99 23       	and	r25, r25
+  e4:	24 f4       	brge	.+8      	; 0xee <main+0x22>
+  e6:	01 97       	sbiw	r24, 0x01	; 1
+  e8:	88 6f       	ori	r24, 0xF8	; 248
+  ea:	9f 6f       	ori	r25, 0xFF	; 255
+  ec:	01 96       	adiw	r24, 0x01	; 1
+  ee:	c8 2f       	mov	r28, r24
+		
+		ByteDataWrite(pattern);		// 바이트 데이터 출력
+  f0:	8d 2f       	mov	r24, r29
+  f2:	01 c0       	rjmp	.+2      	; 0xf6 <main+0x2a>
+  f4:	88 0f       	add	r24, r24
+  f6:	2a 95       	dec	r18
+  f8:	ea f7       	brpl	.-6      	; 0xf4 <main+0x28>
+  fa:	d7 df       	rcall	.-82     	; 0xaa <ByteDataWrite>
+	#else
+		//round up by default
+		__ticks_dc = (uint32_t)(ceil(fabs(__tmp)));
+	#endif
+
+	__builtin_avr_delay_cycles(__ticks_dc);
+  fc:	2f ef       	ldi	r18, 0xFF	; 255
+  fe:	83 ed       	ldi	r24, 0xD3	; 211
+ 100:	90 e3       	ldi	r25, 0x30	; 48
+ 102:	21 50       	subi	r18, 0x01	; 1
+ 104:	80 40       	sbci	r24, 0x00	; 0
+ 106:	90 40       	sbci	r25, 0x00	; 0
+ 108:	e1 f7       	brne	.-8      	; 0x102 <main+0x36>
+ 10a:	00 c0       	rjmp	.+0      	; 0x10c <main+0x40>
+ 10c:	00 00       	nop
+ 10e:	e3 cf       	rjmp	.-58     	; 0xd6 <main+0xa>
+
+00000110 <_exit>:
+ 110:	f8 94       	cli
+
+00000112 <__stop_program>:
+ 112:	ff cf       	rjmp	.-2      	; 0x112 <__stop_program>

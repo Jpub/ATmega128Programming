@@ -1,0 +1,193 @@
+
+CH_07_05.elf:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .data         00000000  00800100  00800100  00000122  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  1 .text         000000ce  00000000  00000000  00000054  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  2 .comment      00000030  00000000  00000000  00000122  2**0
+                  CONTENTS, READONLY
+  3 .note.gnu.avr.deviceinfo 00000040  00000000  00000000  00000154  2**2
+                  CONTENTS, READONLY
+  4 .debug_aranges 00000028  00000000  00000000  00000194  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  5 .debug_info   00000188  00000000  00000000  000001bc  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_abbrev 00000118  00000000  00000000  00000344  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_line   0000014e  00000000  00000000  0000045c  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_frame  00000034  00000000  00000000  000005ac  2**2
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_str    0000019b  00000000  00000000  000005e0  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_loc    000000cf  00000000  00000000  0000077b  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 11 .debug_ranges 00000018  00000000  00000000  0000084a  2**0
+                  CONTENTS, READONLY, DEBUGGING
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+   0:	45 c0       	rjmp	.+138    	; 0x8c <__ctors_end>
+   2:	00 00       	nop
+   4:	4b c0       	rjmp	.+150    	; 0x9c <__bad_interrupt>
+   6:	00 00       	nop
+   8:	49 c0       	rjmp	.+146    	; 0x9c <__bad_interrupt>
+   a:	00 00       	nop
+   c:	47 c0       	rjmp	.+142    	; 0x9c <__bad_interrupt>
+   e:	00 00       	nop
+  10:	45 c0       	rjmp	.+138    	; 0x9c <__bad_interrupt>
+  12:	00 00       	nop
+  14:	43 c0       	rjmp	.+134    	; 0x9c <__bad_interrupt>
+  16:	00 00       	nop
+  18:	41 c0       	rjmp	.+130    	; 0x9c <__bad_interrupt>
+  1a:	00 00       	nop
+  1c:	3f c0       	rjmp	.+126    	; 0x9c <__bad_interrupt>
+  1e:	00 00       	nop
+  20:	3d c0       	rjmp	.+122    	; 0x9c <__bad_interrupt>
+  22:	00 00       	nop
+  24:	3b c0       	rjmp	.+118    	; 0x9c <__bad_interrupt>
+  26:	00 00       	nop
+  28:	39 c0       	rjmp	.+114    	; 0x9c <__bad_interrupt>
+  2a:	00 00       	nop
+  2c:	37 c0       	rjmp	.+110    	; 0x9c <__bad_interrupt>
+  2e:	00 00       	nop
+  30:	35 c0       	rjmp	.+106    	; 0x9c <__bad_interrupt>
+  32:	00 00       	nop
+  34:	33 c0       	rjmp	.+102    	; 0x9c <__bad_interrupt>
+  36:	00 00       	nop
+  38:	31 c0       	rjmp	.+98     	; 0x9c <__bad_interrupt>
+  3a:	00 00       	nop
+  3c:	2f c0       	rjmp	.+94     	; 0x9c <__bad_interrupt>
+  3e:	00 00       	nop
+  40:	2d c0       	rjmp	.+90     	; 0x9c <__bad_interrupt>
+  42:	00 00       	nop
+  44:	2b c0       	rjmp	.+86     	; 0x9c <__bad_interrupt>
+  46:	00 00       	nop
+  48:	29 c0       	rjmp	.+82     	; 0x9c <__bad_interrupt>
+  4a:	00 00       	nop
+  4c:	27 c0       	rjmp	.+78     	; 0x9c <__bad_interrupt>
+  4e:	00 00       	nop
+  50:	25 c0       	rjmp	.+74     	; 0x9c <__bad_interrupt>
+  52:	00 00       	nop
+  54:	23 c0       	rjmp	.+70     	; 0x9c <__bad_interrupt>
+  56:	00 00       	nop
+  58:	21 c0       	rjmp	.+66     	; 0x9c <__bad_interrupt>
+  5a:	00 00       	nop
+  5c:	1f c0       	rjmp	.+62     	; 0x9c <__bad_interrupt>
+  5e:	00 00       	nop
+  60:	1d c0       	rjmp	.+58     	; 0x9c <__bad_interrupt>
+  62:	00 00       	nop
+  64:	1b c0       	rjmp	.+54     	; 0x9c <__bad_interrupt>
+  66:	00 00       	nop
+  68:	19 c0       	rjmp	.+50     	; 0x9c <__bad_interrupt>
+  6a:	00 00       	nop
+  6c:	17 c0       	rjmp	.+46     	; 0x9c <__bad_interrupt>
+  6e:	00 00       	nop
+  70:	15 c0       	rjmp	.+42     	; 0x9c <__bad_interrupt>
+  72:	00 00       	nop
+  74:	13 c0       	rjmp	.+38     	; 0x9c <__bad_interrupt>
+  76:	00 00       	nop
+  78:	11 c0       	rjmp	.+34     	; 0x9c <__bad_interrupt>
+  7a:	00 00       	nop
+  7c:	0f c0       	rjmp	.+30     	; 0x9c <__bad_interrupt>
+  7e:	00 00       	nop
+  80:	0d c0       	rjmp	.+26     	; 0x9c <__bad_interrupt>
+  82:	00 00       	nop
+  84:	0b c0       	rjmp	.+22     	; 0x9c <__bad_interrupt>
+  86:	00 00       	nop
+  88:	09 c0       	rjmp	.+18     	; 0x9c <__bad_interrupt>
+	...
+
+0000008c <__ctors_end>:
+  8c:	11 24       	eor	r1, r1
+  8e:	1f be       	out	0x3f, r1	; 63
+  90:	cf ef       	ldi	r28, 0xFF	; 255
+  92:	d0 e1       	ldi	r29, 0x10	; 16
+  94:	de bf       	out	0x3e, r29	; 62
+  96:	cd bf       	out	0x3d, r28	; 61
+  98:	09 d0       	rcall	.+18     	; 0xac <main>
+  9a:	17 c0       	rjmp	.+46     	; 0xca <_exit>
+
+0000009c <__bad_interrupt>:
+  9c:	b1 cf       	rjmp	.-158    	; 0x0 <__vectors>
+
+0000009e <circular_shift_right>:
+char circular_shift_right(char pattern)
+{
+	char LSB = pattern & 0x01;		// LSB
+	char MSB = LSB << 7;			// LSB 값을 MSB로 옮김
+	
+	char new_pattern = pattern >> 1;	// 패턴을 오른쪽으로 이동
+  9e:	98 2f       	mov	r25, r24
+  a0:	96 95       	lsr	r25
+#include <util/delay.h>
+
+char circular_shift_right(char pattern)
+{
+	char LSB = pattern & 0x01;		// LSB
+	char MSB = LSB << 7;			// LSB 값을 MSB로 옮김
+  a2:	87 95       	ror	r24
+  a4:	88 27       	eor	r24, r24
+  a6:	87 95       	ror	r24
+	char new_pattern = pattern >> 1;	// 패턴을 오른쪽으로 이동
+	
+	new_pattern |= MSB;			// MSB 추가
+
+	return new_pattern;
+}
+  a8:	89 2b       	or	r24, r25
+  aa:	08 95       	ret
+
+000000ac <main>:
+
+int main(void)
+{
+	char pattern = 0xA0;
+
+	DDRB = 0xFF;				// PORT B 핀을 출력으로 설정
+  ac:	8f ef       	ldi	r24, 0xFF	; 255
+  ae:	87 bb       	out	0x17, r24	; 23
+	return new_pattern;
+}
+
+int main(void)
+{
+	char pattern = 0xA0;
+  b0:	80 ea       	ldi	r24, 0xA0	; 160
+
+	DDRB = 0xFF;				// PORT B 핀을 출력으로 설정
+
+	while (1)
+	{
+		PORTB = pattern;			// 현재 패턴 표시
+  b2:	88 bb       	out	0x18, r24	; 24
+
+		// 다음 인덱스 생성
+		pattern = circular_shift_right(pattern);
+  b4:	f4 df       	rcall	.-24     	; 0x9e <circular_shift_right>
+	#else
+		//round up by default
+		__ticks_dc = (uint32_t)(ceil(fabs(__tmp)));
+	#endif
+
+	__builtin_avr_delay_cycles(__ticks_dc);
+  b6:	2f ef       	ldi	r18, 0xFF	; 255
+  b8:	39 e6       	ldi	r19, 0x69	; 105
+  ba:	98 e1       	ldi	r25, 0x18	; 24
+  bc:	21 50       	subi	r18, 0x01	; 1
+  be:	30 40       	sbci	r19, 0x00	; 0
+  c0:	90 40       	sbci	r25, 0x00	; 0
+  c2:	e1 f7       	brne	.-8      	; 0xbc <main+0x10>
+  c4:	00 c0       	rjmp	.+0      	; 0xc6 <main+0x1a>
+  c6:	00 00       	nop
+  c8:	f4 cf       	rjmp	.-24     	; 0xb2 <main+0x6>
+
+000000ca <_exit>:
+  ca:	f8 94       	cli
+
+000000cc <__stop_program>:
+  cc:	ff cf       	rjmp	.-2      	; 0xcc <__stop_program>

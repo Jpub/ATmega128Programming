@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Atmel Studio Solution File, Format Version 11.00
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "GLCD_HelloWorld", "GLCD_HelloWorld\GLCD_HelloWorld.cproj", "{DCE6C7E3-EE26-4D79-826B-08594B9AD897}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D6A7ED8C-74C8-4B39-95D2-73EDF03B166D} = {D6A7ED8C-74C8-4B39-95D2-73EDF03B166D}
+	EndProjectSection
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "u8g", "u8g\u8g.cproj", "{D6A7ED8C-74C8-4B39-95D2-73EDF03B166D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Debug|AVR.ActiveCfg = Debug|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Debug|AVR.Build.0 = Debug|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Release|AVR.ActiveCfg = Release|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Release|AVR.Build.0 = Release|AVR
+		{D6A7ED8C-74C8-4B39-95D2-73EDF03B166D}.Debug|AVR.ActiveCfg = Debug|AVR
+		{D6A7ED8C-74C8-4B39-95D2-73EDF03B166D}.Debug|AVR.Build.0 = Debug|AVR
+		{D6A7ED8C-74C8-4B39-95D2-73EDF03B166D}.Release|AVR.ActiveCfg = Release|AVR
+		{D6A7ED8C-74C8-4B39-95D2-73EDF03B166D}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

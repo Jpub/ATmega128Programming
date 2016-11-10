@@ -1,0 +1,274 @@
+
+CH_20_02.elf:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .data         00000008  00800100  0000012c  000001a0  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  1 .text         0000012c  00000000  00000000  00000074  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  2 .comment      00000030  00000000  00000000  000001a8  2**0
+                  CONTENTS, READONLY
+  3 .note.gnu.avr.deviceinfo 00000040  00000000  00000000  000001d8  2**2
+                  CONTENTS, READONLY
+  4 .debug_aranges 00000038  00000000  00000000  00000218  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  5 .debug_info   0000025d  00000000  00000000  00000250  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_abbrev 00000194  00000000  00000000  000004ad  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_line   000001b5  00000000  00000000  00000641  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_frame  00000064  00000000  00000000  000007f8  2**2
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_str    000001bd  00000000  00000000  0000085c  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_loc    0000008a  00000000  00000000  00000a19  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 11 .debug_ranges 00000040  00000000  00000000  00000aa3  2**0
+                  CONTENTS, READONLY, DEBUGGING
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+   0:	45 c0       	rjmp	.+138    	; 0x8c <__ctors_end>
+   2:	00 00       	nop
+   4:	58 c0       	rjmp	.+176    	; 0xb6 <__bad_interrupt>
+   6:	00 00       	nop
+   8:	56 c0       	rjmp	.+172    	; 0xb6 <__bad_interrupt>
+   a:	00 00       	nop
+   c:	54 c0       	rjmp	.+168    	; 0xb6 <__bad_interrupt>
+   e:	00 00       	nop
+  10:	52 c0       	rjmp	.+164    	; 0xb6 <__bad_interrupt>
+  12:	00 00       	nop
+  14:	50 c0       	rjmp	.+160    	; 0xb6 <__bad_interrupt>
+  16:	00 00       	nop
+  18:	4e c0       	rjmp	.+156    	; 0xb6 <__bad_interrupt>
+  1a:	00 00       	nop
+  1c:	4c c0       	rjmp	.+152    	; 0xb6 <__bad_interrupt>
+  1e:	00 00       	nop
+  20:	4a c0       	rjmp	.+148    	; 0xb6 <__bad_interrupt>
+  22:	00 00       	nop
+  24:	48 c0       	rjmp	.+144    	; 0xb6 <__bad_interrupt>
+  26:	00 00       	nop
+  28:	46 c0       	rjmp	.+140    	; 0xb6 <__bad_interrupt>
+  2a:	00 00       	nop
+  2c:	44 c0       	rjmp	.+136    	; 0xb6 <__bad_interrupt>
+  2e:	00 00       	nop
+  30:	42 c0       	rjmp	.+132    	; 0xb6 <__bad_interrupt>
+  32:	00 00       	nop
+  34:	40 c0       	rjmp	.+128    	; 0xb6 <__bad_interrupt>
+  36:	00 00       	nop
+  38:	3e c0       	rjmp	.+124    	; 0xb6 <__bad_interrupt>
+  3a:	00 00       	nop
+  3c:	3c c0       	rjmp	.+120    	; 0xb6 <__bad_interrupt>
+  3e:	00 00       	nop
+  40:	3a c0       	rjmp	.+116    	; 0xb6 <__bad_interrupt>
+  42:	00 00       	nop
+  44:	38 c0       	rjmp	.+112    	; 0xb6 <__bad_interrupt>
+  46:	00 00       	nop
+  48:	36 c0       	rjmp	.+108    	; 0xb6 <__bad_interrupt>
+  4a:	00 00       	nop
+  4c:	34 c0       	rjmp	.+104    	; 0xb6 <__bad_interrupt>
+  4e:	00 00       	nop
+  50:	32 c0       	rjmp	.+100    	; 0xb6 <__bad_interrupt>
+  52:	00 00       	nop
+  54:	30 c0       	rjmp	.+96     	; 0xb6 <__bad_interrupt>
+  56:	00 00       	nop
+  58:	2e c0       	rjmp	.+92     	; 0xb6 <__bad_interrupt>
+  5a:	00 00       	nop
+  5c:	2c c0       	rjmp	.+88     	; 0xb6 <__bad_interrupt>
+  5e:	00 00       	nop
+  60:	2a c0       	rjmp	.+84     	; 0xb6 <__bad_interrupt>
+  62:	00 00       	nop
+  64:	28 c0       	rjmp	.+80     	; 0xb6 <__bad_interrupt>
+  66:	00 00       	nop
+  68:	26 c0       	rjmp	.+76     	; 0xb6 <__bad_interrupt>
+  6a:	00 00       	nop
+  6c:	24 c0       	rjmp	.+72     	; 0xb6 <__bad_interrupt>
+  6e:	00 00       	nop
+  70:	22 c0       	rjmp	.+68     	; 0xb6 <__bad_interrupt>
+  72:	00 00       	nop
+  74:	20 c0       	rjmp	.+64     	; 0xb6 <__bad_interrupt>
+  76:	00 00       	nop
+  78:	1e c0       	rjmp	.+60     	; 0xb6 <__bad_interrupt>
+  7a:	00 00       	nop
+  7c:	1c c0       	rjmp	.+56     	; 0xb6 <__bad_interrupt>
+  7e:	00 00       	nop
+  80:	1a c0       	rjmp	.+52     	; 0xb6 <__bad_interrupt>
+  82:	00 00       	nop
+  84:	18 c0       	rjmp	.+48     	; 0xb6 <__bad_interrupt>
+  86:	00 00       	nop
+  88:	16 c0       	rjmp	.+44     	; 0xb6 <__bad_interrupt>
+	...
+
+0000008c <__ctors_end>:
+  8c:	11 24       	eor	r1, r1
+  8e:	1f be       	out	0x3f, r1	; 63
+  90:	cf ef       	ldi	r28, 0xFF	; 255
+  92:	d0 e1       	ldi	r29, 0x10	; 16
+  94:	de bf       	out	0x3e, r29	; 62
+  96:	cd bf       	out	0x3d, r28	; 61
+
+00000098 <__do_copy_data>:
+  98:	11 e0       	ldi	r17, 0x01	; 1
+  9a:	a0 e0       	ldi	r26, 0x00	; 0
+  9c:	b1 e0       	ldi	r27, 0x01	; 1
+  9e:	ec e2       	ldi	r30, 0x2C	; 44
+  a0:	f1 e0       	ldi	r31, 0x01	; 1
+  a2:	00 e0       	ldi	r16, 0x00	; 0
+  a4:	0b bf       	out	0x3b, r16	; 59
+  a6:	02 c0       	rjmp	.+4      	; 0xac <__do_copy_data+0x14>
+  a8:	07 90       	elpm	r0, Z+
+  aa:	0d 92       	st	X+, r0
+  ac:	a8 30       	cpi	r26, 0x08	; 8
+  ae:	b1 07       	cpc	r27, r17
+  b0:	d9 f7       	brne	.-10     	; 0xa8 <__do_copy_data+0x10>
+  b2:	08 d0       	rcall	.+16     	; 0xc4 <main>
+  b4:	39 c0       	rjmp	.+114    	; 0x128 <_exit>
+
+000000b6 <__bad_interrupt>:
+  b6:	a4 cf       	rjmp	.-184    	; 0x0 <__vectors>
+
+000000b8 <init_port>:
+}
+
+void init_port(void)
+{
+	// ROW 관련 포트 설정
+	DDR_ROW = 0xFF;			// 출력으로 설정
+  b8:	8f ef       	ldi	r24, 0xFF	; 255
+  ba:	84 bb       	out	0x14, r24	; 20
+	PORT_COL = data;
+}
+
+void write_row_data(uint8_t data)
+{
+	PORT_ROW = data;
+  bc:	15 ba       	out	0x15, r1	; 21
+	// ROW 관련 포트 설정
+	DDR_ROW = 0xFF;			// 출력으로 설정
+	write_row_data(0xFF * ROW_OFF);	// OFF 값 출력
+
+	// COLUMN 관련 포트 설정
+	DDR_COL = 0xFF;			// 출력으로 설정
+  be:	81 bb       	out	0x11, r24	; 17
+#define ROW_ON			1
+#define ROW_OFF		0
+
+void write_column_data(uint8_t data)
+{
+	PORT_COL = data;
+  c0:	82 bb       	out	0x12, r24	; 18
+  c2:	08 95       	ret
+
+000000c4 <main>:
+	DDR_COL = 0xFF;			// 출력으로 설정
+	write_column_data(0xFF * COL_OFF);	// OFF 값 출력
+}
+
+int main(void)
+{
+  c4:	cf 93       	push	r28
+  c6:	df 93       	push	r29
+  c8:	cd b7       	in	r28, 0x3d	; 61
+  ca:	de b7       	in	r29, 0x3e	; 62
+  cc:	28 97       	sbiw	r28, 0x08	; 8
+  ce:	0f b6       	in	r0, 0x3f	; 63
+  d0:	f8 94       	cli
+  d2:	de bf       	out	0x3e, r29	; 62
+  d4:	0f be       	out	0x3f, r0	; 63
+  d6:	cd bf       	out	0x3d, r28	; 61
+	init_port();
+  d8:	ef df       	rcall	.-34     	; 0xb8 <init_port>
+	
+	uint8_t smile[] = {			// 스마일 문자 정의
+  da:	88 e0       	ldi	r24, 0x08	; 8
+  dc:	e0 e0       	ldi	r30, 0x00	; 0
+  de:	f1 e0       	ldi	r31, 0x01	; 1
+  e0:	de 01       	movw	r26, r28
+  e2:	11 96       	adiw	r26, 0x01	; 1
+  e4:	01 90       	ld	r0, Z+
+  e6:	0d 92       	st	X+, r0
+  e8:	8a 95       	dec	r24
+  ea:	e1 f7       	brne	.-8      	; 0xe4 <main+0x20>
+		0b01000010,
+	0b00111100 };
+	
+	while(1)
+	{
+		for(int i = 0; i < 8; i++){
+  ec:	70 e0       	ldi	r23, 0x00	; 0
+  ee:	60 e0       	ldi	r22, 0x00	; 0
+			uint8_t col_data = ~(1 << i);
+  f0:	41 e0       	ldi	r20, 0x01	; 1
+  f2:	50 e0       	ldi	r21, 0x00	; 0
+  f4:	fe 01       	movw	r30, r28
+  f6:	31 96       	adiw	r30, 0x01	; 1
+		0b01000010,
+	0b00111100 };
+	
+	while(1)
+	{
+		for(int i = 0; i < 8; i++){
+  f8:	87 2f       	mov	r24, r23
+  fa:	96 2f       	mov	r25, r22
+			uint8_t col_data = ~(1 << i);
+  fc:	9a 01       	movw	r18, r20
+  fe:	08 2e       	mov	r0, r24
+ 100:	02 c0       	rjmp	.+4      	; 0x106 <main+0x42>
+ 102:	22 0f       	add	r18, r18
+ 104:	33 1f       	adc	r19, r19
+ 106:	0a 94       	dec	r0
+ 108:	e2 f7       	brpl	.-8      	; 0x102 <main+0x3e>
+ 10a:	20 95       	com	r18
+#define ROW_ON			1
+#define ROW_OFF		0
+
+void write_column_data(uint8_t data)
+{
+	PORT_COL = data;
+ 10c:	22 bb       	out	0x12, r18	; 18
+	{
+		for(int i = 0; i < 8; i++){
+			uint8_t col_data = ~(1 << i);
+			
+			write_column_data(col_data);
+			write_row_data(smile[i]);
+ 10e:	21 91       	ld	r18, Z+
+	PORT_COL = data;
+}
+
+void write_row_data(uint8_t data)
+{
+	PORT_ROW = data;
+ 110:	25 bb       	out	0x15, r18	; 21
+	#else
+		//round up by default
+		__ticks_dc = (uint32_t)(ceil(fabs(__tmp)));
+	#endif
+
+	__builtin_avr_delay_cycles(__ticks_dc);
+ 112:	af e3       	ldi	r26, 0x3F	; 63
+ 114:	bf e1       	ldi	r27, 0x1F	; 31
+ 116:	11 97       	sbiw	r26, 0x01	; 1
+ 118:	f1 f7       	brne	.-4      	; 0x116 <main+0x52>
+ 11a:	00 c0       	rjmp	.+0      	; 0x11c <main+0x58>
+ 11c:	00 00       	nop
+		0b01000010,
+	0b00111100 };
+	
+	while(1)
+	{
+		for(int i = 0; i < 8; i++){
+ 11e:	01 96       	adiw	r24, 0x01	; 1
+ 120:	88 30       	cpi	r24, 0x08	; 8
+ 122:	91 05       	cpc	r25, r1
+ 124:	59 f7       	brne	.-42     	; 0xfc <main+0x38>
+ 126:	e6 cf       	rjmp	.-52     	; 0xf4 <main+0x30>
+
+00000128 <_exit>:
+ 128:	f8 94       	cli
+
+0000012a <__stop_program>:
+ 12a:	ff cf       	rjmp	.-2      	; 0x12a <__stop_program>

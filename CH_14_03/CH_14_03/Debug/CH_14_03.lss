@@ -1,0 +1,416 @@
+
+CH_14_03.elf:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .data         00000000  00800100  00800100  000002fc  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  1 .text         00000288  00000000  00000000  00000074  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  2 .bss          00000006  00800100  00800100  000002fc  2**0
+                  ALLOC
+  3 .comment      00000030  00000000  00000000  000002fc  2**0
+                  CONTENTS, READONLY
+  4 .note.gnu.avr.deviceinfo 00000040  00000000  00000000  0000032c  2**2
+                  CONTENTS, READONLY
+  5 .debug_aranges 00000040  00000000  00000000  0000036c  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_info   00000120  00000000  00000000  000003ac  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_abbrev 0000007c  00000000  00000000  000004cc  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_line   00000203  00000000  00000000  00000548  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_frame  000000e4  00000000  00000000  0000074c  2**2
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_str    0000017d  00000000  00000000  00000830  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 11 .debug_loc    0000018c  00000000  00000000  000009ad  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 12 .debug_ranges 00000030  00000000  00000000  00000b39  2**0
+                  CONTENTS, READONLY, DEBUGGING
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+   0:	45 c0       	rjmp	.+138    	; 0x8c <__ctors_end>
+   2:	00 00       	nop
+   4:	53 c0       	rjmp	.+166    	; 0xac <__bad_interrupt>
+   6:	00 00       	nop
+   8:	51 c0       	rjmp	.+162    	; 0xac <__bad_interrupt>
+   a:	00 00       	nop
+   c:	4f c0       	rjmp	.+158    	; 0xac <__bad_interrupt>
+   e:	00 00       	nop
+  10:	4d c0       	rjmp	.+154    	; 0xac <__bad_interrupt>
+  12:	00 00       	nop
+  14:	4b c0       	rjmp	.+150    	; 0xac <__bad_interrupt>
+  16:	00 00       	nop
+  18:	49 c0       	rjmp	.+146    	; 0xac <__bad_interrupt>
+  1a:	00 00       	nop
+  1c:	47 c0       	rjmp	.+142    	; 0xac <__bad_interrupt>
+  1e:	00 00       	nop
+  20:	45 c0       	rjmp	.+138    	; 0xac <__bad_interrupt>
+  22:	00 00       	nop
+  24:	43 c0       	rjmp	.+134    	; 0xac <__bad_interrupt>
+  26:	00 00       	nop
+  28:	41 c0       	rjmp	.+130    	; 0xac <__bad_interrupt>
+  2a:	00 00       	nop
+  2c:	3f c0       	rjmp	.+126    	; 0xac <__bad_interrupt>
+  2e:	00 00       	nop
+  30:	3e c0       	rjmp	.+124    	; 0xae <__vector_12>
+  32:	00 00       	nop
+  34:	61 c0       	rjmp	.+194    	; 0xf8 <__vector_13>
+  36:	00 00       	nop
+  38:	bc c0       	rjmp	.+376    	; 0x1b2 <__vector_14>
+  3a:	00 00       	nop
+  3c:	37 c0       	rjmp	.+110    	; 0xac <__bad_interrupt>
+  3e:	00 00       	nop
+  40:	35 c0       	rjmp	.+106    	; 0xac <__bad_interrupt>
+  42:	00 00       	nop
+  44:	33 c0       	rjmp	.+102    	; 0xac <__bad_interrupt>
+  46:	00 00       	nop
+  48:	31 c0       	rjmp	.+98     	; 0xac <__bad_interrupt>
+  4a:	00 00       	nop
+  4c:	2f c0       	rjmp	.+94     	; 0xac <__bad_interrupt>
+  4e:	00 00       	nop
+  50:	2d c0       	rjmp	.+90     	; 0xac <__bad_interrupt>
+  52:	00 00       	nop
+  54:	2b c0       	rjmp	.+86     	; 0xac <__bad_interrupt>
+  56:	00 00       	nop
+  58:	29 c0       	rjmp	.+82     	; 0xac <__bad_interrupt>
+  5a:	00 00       	nop
+  5c:	27 c0       	rjmp	.+78     	; 0xac <__bad_interrupt>
+  5e:	00 00       	nop
+  60:	83 c0       	rjmp	.+262    	; 0x168 <__vector_24>
+  62:	00 00       	nop
+  64:	23 c0       	rjmp	.+70     	; 0xac <__bad_interrupt>
+  66:	00 00       	nop
+  68:	21 c0       	rjmp	.+66     	; 0xac <__bad_interrupt>
+  6a:	00 00       	nop
+  6c:	1f c0       	rjmp	.+62     	; 0xac <__bad_interrupt>
+  6e:	00 00       	nop
+  70:	1d c0       	rjmp	.+58     	; 0xac <__bad_interrupt>
+  72:	00 00       	nop
+  74:	1b c0       	rjmp	.+54     	; 0xac <__bad_interrupt>
+  76:	00 00       	nop
+  78:	19 c0       	rjmp	.+50     	; 0xac <__bad_interrupt>
+  7a:	00 00       	nop
+  7c:	17 c0       	rjmp	.+46     	; 0xac <__bad_interrupt>
+  7e:	00 00       	nop
+  80:	15 c0       	rjmp	.+42     	; 0xac <__bad_interrupt>
+  82:	00 00       	nop
+  84:	13 c0       	rjmp	.+38     	; 0xac <__bad_interrupt>
+  86:	00 00       	nop
+  88:	11 c0       	rjmp	.+34     	; 0xac <__bad_interrupt>
+	...
+
+0000008c <__ctors_end>:
+  8c:	11 24       	eor	r1, r1
+  8e:	1f be       	out	0x3f, r1	; 63
+  90:	cf ef       	ldi	r28, 0xFF	; 255
+  92:	d0 e1       	ldi	r29, 0x10	; 16
+  94:	de bf       	out	0x3e, r29	; 62
+  96:	cd bf       	out	0x3d, r28	; 61
+
+00000098 <__do_clear_bss>:
+  98:	21 e0       	ldi	r18, 0x01	; 1
+  9a:	a0 e0       	ldi	r26, 0x00	; 0
+  9c:	b1 e0       	ldi	r27, 0x01	; 1
+  9e:	01 c0       	rjmp	.+2      	; 0xa2 <.do_clear_bss_start>
+
+000000a0 <.do_clear_bss_loop>:
+  a0:	1d 92       	st	X+, r1
+
+000000a2 <.do_clear_bss_start>:
+  a2:	a6 30       	cpi	r26, 0x06	; 6
+  a4:	b2 07       	cpc	r27, r18
+  a6:	e1 f7       	brne	.-8      	; 0xa0 <.do_clear_bss_loop>
+  a8:	cf d0       	rcall	.+414    	; 0x248 <main>
+  aa:	ec c0       	rjmp	.+472    	; 0x284 <_exit>
+
+000000ac <__bad_interrupt>:
+  ac:	a9 cf       	rjmp	.-174    	; 0x0 <__vectors>
+
+000000ae <__vector_12>:
+#include <avr/interrupt.h>
+
+int state0 = 0, state1 = 0, state2 = 0;
+
+ISR(TIMER1_COMPA_vect)
+{
+  ae:	1f 92       	push	r1
+  b0:	0f 92       	push	r0
+  b2:	0f b6       	in	r0, 0x3f	; 63
+  b4:	0f 92       	push	r0
+  b6:	11 24       	eor	r1, r1
+  b8:	2f 93       	push	r18
+  ba:	3f 93       	push	r19
+  bc:	8f 93       	push	r24
+  be:	9f 93       	push	r25
+	state2 = !state2;			// PB2 핀의 LED 제어
+  c0:	81 e0       	ldi	r24, 0x01	; 1
+  c2:	90 e0       	ldi	r25, 0x00	; 0
+  c4:	20 91 00 01 	lds	r18, 0x0100	; 0x800100 <_edata>
+  c8:	30 91 01 01 	lds	r19, 0x0101	; 0x800101 <_edata+0x1>
+  cc:	23 2b       	or	r18, r19
+  ce:	11 f0       	breq	.+4      	; 0xd4 <__vector_12+0x26>
+  d0:	80 e0       	ldi	r24, 0x00	; 0
+  d2:	90 e0       	ldi	r25, 0x00	; 0
+  d4:	90 93 01 01 	sts	0x0101, r25	; 0x800101 <_edata+0x1>
+  d8:	80 93 00 01 	sts	0x0100, r24	; 0x800100 <_edata>
+	if(state2) PORTB |= 0x04;
+  dc:	89 2b       	or	r24, r25
+  de:	11 f0       	breq	.+4      	; 0xe4 <__vector_12+0x36>
+  e0:	c2 9a       	sbi	0x18, 2	; 24
+  e2:	01 c0       	rjmp	.+2      	; 0xe6 <__vector_12+0x38>
+	else PORTB &= ~0x04;
+  e4:	c2 98       	cbi	0x18, 2	; 24
+}
+  e6:	9f 91       	pop	r25
+  e8:	8f 91       	pop	r24
+  ea:	3f 91       	pop	r19
+  ec:	2f 91       	pop	r18
+  ee:	0f 90       	pop	r0
+  f0:	0f be       	out	0x3f, r0	; 63
+  f2:	0f 90       	pop	r0
+  f4:	1f 90       	pop	r1
+  f6:	18 95       	reti
+
+000000f8 <__vector_13>:
+
+ISR(TIMER1_COMPB_vect)
+{
+  f8:	1f 92       	push	r1
+  fa:	0f 92       	push	r0
+  fc:	0f b6       	in	r0, 0x3f	; 63
+  fe:	0f 92       	push	r0
+ 100:	11 24       	eor	r1, r1
+ 102:	2f 93       	push	r18
+ 104:	3f 93       	push	r19
+ 106:	8f 93       	push	r24
+ 108:	9f 93       	push	r25
+	state2 = !state2;			// PB2 핀의 LED 제어
+ 10a:	81 e0       	ldi	r24, 0x01	; 1
+ 10c:	90 e0       	ldi	r25, 0x00	; 0
+ 10e:	20 91 00 01 	lds	r18, 0x0100	; 0x800100 <_edata>
+ 112:	30 91 01 01 	lds	r19, 0x0101	; 0x800101 <_edata+0x1>
+ 116:	23 2b       	or	r18, r19
+ 118:	11 f0       	breq	.+4      	; 0x11e <__vector_13+0x26>
+ 11a:	80 e0       	ldi	r24, 0x00	; 0
+ 11c:	90 e0       	ldi	r25, 0x00	; 0
+ 11e:	90 93 01 01 	sts	0x0101, r25	; 0x800101 <_edata+0x1>
+ 122:	80 93 00 01 	sts	0x0100, r24	; 0x800100 <_edata>
+	if(state2) PORTB |= 0x04;
+ 126:	89 2b       	or	r24, r25
+ 128:	11 f0       	breq	.+4      	; 0x12e <__vector_13+0x36>
+ 12a:	c2 9a       	sbi	0x18, 2	; 24
+ 12c:	01 c0       	rjmp	.+2      	; 0x130 <__vector_13+0x38>
+	else PORTB &= ~0x04;
+ 12e:	c2 98       	cbi	0x18, 2	; 24
+	
+	state1 = !state1;			// PB1 핀의 LED 제어
+ 130:	81 e0       	ldi	r24, 0x01	; 1
+ 132:	90 e0       	ldi	r25, 0x00	; 0
+ 134:	20 91 02 01 	lds	r18, 0x0102	; 0x800102 <state1>
+ 138:	30 91 03 01 	lds	r19, 0x0103	; 0x800103 <state1+0x1>
+ 13c:	23 2b       	or	r18, r19
+ 13e:	11 f0       	breq	.+4      	; 0x144 <__vector_13+0x4c>
+ 140:	80 e0       	ldi	r24, 0x00	; 0
+ 142:	90 e0       	ldi	r25, 0x00	; 0
+ 144:	90 93 03 01 	sts	0x0103, r25	; 0x800103 <state1+0x1>
+ 148:	80 93 02 01 	sts	0x0102, r24	; 0x800102 <state1>
+	if(state1) PORTB |= 0x02;
+ 14c:	89 2b       	or	r24, r25
+ 14e:	11 f0       	breq	.+4      	; 0x154 <__vector_13+0x5c>
+ 150:	c1 9a       	sbi	0x18, 1	; 24
+ 152:	01 c0       	rjmp	.+2      	; 0x156 <__vector_13+0x5e>
+	else PORTB &= ~0x02;
+ 154:	c1 98       	cbi	0x18, 1	; 24
+}
+ 156:	9f 91       	pop	r25
+ 158:	8f 91       	pop	r24
+ 15a:	3f 91       	pop	r19
+ 15c:	2f 91       	pop	r18
+ 15e:	0f 90       	pop	r0
+ 160:	0f be       	out	0x3f, r0	; 63
+ 162:	0f 90       	pop	r0
+ 164:	1f 90       	pop	r1
+ 166:	18 95       	reti
+
+00000168 <__vector_24>:
+
+ISR(TIMER1_COMPC_vect)
+{
+ 168:	1f 92       	push	r1
+ 16a:	0f 92       	push	r0
+ 16c:	0f b6       	in	r0, 0x3f	; 63
+ 16e:	0f 92       	push	r0
+ 170:	11 24       	eor	r1, r1
+ 172:	2f 93       	push	r18
+ 174:	3f 93       	push	r19
+ 176:	8f 93       	push	r24
+ 178:	9f 93       	push	r25
+	state2 = !state2;			// PB2 핀의 LED 제어
+ 17a:	81 e0       	ldi	r24, 0x01	; 1
+ 17c:	90 e0       	ldi	r25, 0x00	; 0
+ 17e:	20 91 00 01 	lds	r18, 0x0100	; 0x800100 <_edata>
+ 182:	30 91 01 01 	lds	r19, 0x0101	; 0x800101 <_edata+0x1>
+ 186:	23 2b       	or	r18, r19
+ 188:	11 f0       	breq	.+4      	; 0x18e <__vector_24+0x26>
+ 18a:	80 e0       	ldi	r24, 0x00	; 0
+ 18c:	90 e0       	ldi	r25, 0x00	; 0
+ 18e:	90 93 01 01 	sts	0x0101, r25	; 0x800101 <_edata+0x1>
+ 192:	80 93 00 01 	sts	0x0100, r24	; 0x800100 <_edata>
+	if(state2) PORTB |= 0x04;
+ 196:	89 2b       	or	r24, r25
+ 198:	11 f0       	breq	.+4      	; 0x19e <__vector_24+0x36>
+ 19a:	c2 9a       	sbi	0x18, 2	; 24
+ 19c:	01 c0       	rjmp	.+2      	; 0x1a0 <__vector_24+0x38>
+	else PORTB &= ~0x04;
+ 19e:	c2 98       	cbi	0x18, 2	; 24
+}
+ 1a0:	9f 91       	pop	r25
+ 1a2:	8f 91       	pop	r24
+ 1a4:	3f 91       	pop	r19
+ 1a6:	2f 91       	pop	r18
+ 1a8:	0f 90       	pop	r0
+ 1aa:	0f be       	out	0x3f, r0	; 63
+ 1ac:	0f 90       	pop	r0
+ 1ae:	1f 90       	pop	r1
+ 1b0:	18 95       	reti
+
+000001b2 <__vector_14>:
+
+ISR(TIMER1_OVF_vect)
+{
+ 1b2:	1f 92       	push	r1
+ 1b4:	0f 92       	push	r0
+ 1b6:	0f b6       	in	r0, 0x3f	; 63
+ 1b8:	0f 92       	push	r0
+ 1ba:	11 24       	eor	r1, r1
+ 1bc:	2f 93       	push	r18
+ 1be:	3f 93       	push	r19
+ 1c0:	8f 93       	push	r24
+ 1c2:	9f 93       	push	r25
+	state2 = !state2;			// PB2 핀의 LED 제어
+ 1c4:	81 e0       	ldi	r24, 0x01	; 1
+ 1c6:	90 e0       	ldi	r25, 0x00	; 0
+ 1c8:	20 91 00 01 	lds	r18, 0x0100	; 0x800100 <_edata>
+ 1cc:	30 91 01 01 	lds	r19, 0x0101	; 0x800101 <_edata+0x1>
+ 1d0:	23 2b       	or	r18, r19
+ 1d2:	11 f0       	breq	.+4      	; 0x1d8 <__vector_14+0x26>
+ 1d4:	80 e0       	ldi	r24, 0x00	; 0
+ 1d6:	90 e0       	ldi	r25, 0x00	; 0
+ 1d8:	90 93 01 01 	sts	0x0101, r25	; 0x800101 <_edata+0x1>
+ 1dc:	80 93 00 01 	sts	0x0100, r24	; 0x800100 <_edata>
+	if(state2) PORTB |= 0x04;
+ 1e0:	89 2b       	or	r24, r25
+ 1e2:	11 f0       	breq	.+4      	; 0x1e8 <__vector_14+0x36>
+ 1e4:	c2 9a       	sbi	0x18, 2	; 24
+ 1e6:	01 c0       	rjmp	.+2      	; 0x1ea <__vector_14+0x38>
+	else PORTB &= ~0x04;
+ 1e8:	c2 98       	cbi	0x18, 2	; 24
+	
+	state1 = !state1;			// PB2 핀의 LED 제어
+ 1ea:	81 e0       	ldi	r24, 0x01	; 1
+ 1ec:	90 e0       	ldi	r25, 0x00	; 0
+ 1ee:	20 91 02 01 	lds	r18, 0x0102	; 0x800102 <state1>
+ 1f2:	30 91 03 01 	lds	r19, 0x0103	; 0x800103 <state1+0x1>
+ 1f6:	23 2b       	or	r18, r19
+ 1f8:	11 f0       	breq	.+4      	; 0x1fe <__vector_14+0x4c>
+ 1fa:	80 e0       	ldi	r24, 0x00	; 0
+ 1fc:	90 e0       	ldi	r25, 0x00	; 0
+ 1fe:	90 93 03 01 	sts	0x0103, r25	; 0x800103 <state1+0x1>
+ 202:	80 93 02 01 	sts	0x0102, r24	; 0x800102 <state1>
+	if(state1) PORTB |= 0x02;
+ 206:	89 2b       	or	r24, r25
+ 208:	11 f0       	breq	.+4      	; 0x20e <__vector_14+0x5c>
+ 20a:	c1 9a       	sbi	0x18, 1	; 24
+ 20c:	01 c0       	rjmp	.+2      	; 0x210 <__vector_14+0x5e>
+	else PORTB &= ~0x02;
+ 20e:	c1 98       	cbi	0x18, 1	; 24
+	
+	state0 = !state0;			// PB0 핀의 LED 제어
+ 210:	81 e0       	ldi	r24, 0x01	; 1
+ 212:	90 e0       	ldi	r25, 0x00	; 0
+ 214:	20 91 04 01 	lds	r18, 0x0104	; 0x800104 <state0>
+ 218:	30 91 05 01 	lds	r19, 0x0105	; 0x800105 <state0+0x1>
+ 21c:	23 2b       	or	r18, r19
+ 21e:	11 f0       	breq	.+4      	; 0x224 <__vector_14+0x72>
+ 220:	80 e0       	ldi	r24, 0x00	; 0
+ 222:	90 e0       	ldi	r25, 0x00	; 0
+ 224:	90 93 05 01 	sts	0x0105, r25	; 0x800105 <state0+0x1>
+ 228:	80 93 04 01 	sts	0x0104, r24	; 0x800104 <state0>
+	if(state0) PORTB |= 0x01;
+ 22c:	89 2b       	or	r24, r25
+ 22e:	11 f0       	breq	.+4      	; 0x234 <__vector_14+0x82>
+ 230:	c0 9a       	sbi	0x18, 0	; 24
+ 232:	01 c0       	rjmp	.+2      	; 0x236 <__vector_14+0x84>
+	else PORTB &= ~0x01;
+ 234:	c0 98       	cbi	0x18, 0	; 24
+}
+ 236:	9f 91       	pop	r25
+ 238:	8f 91       	pop	r24
+ 23a:	3f 91       	pop	r19
+ 23c:	2f 91       	pop	r18
+ 23e:	0f 90       	pop	r0
+ 240:	0f be       	out	0x3f, r0	; 63
+ 242:	0f 90       	pop	r0
+ 244:	1f 90       	pop	r1
+ 246:	18 95       	reti
+
+00000248 <main>:
+
+int main(void)
+{
+	DDRB = 0x07;				// PB0~PB2 핀을 출력으로 설정
+ 248:	87 e0       	ldi	r24, 0x07	; 7
+ 24a:	87 bb       	out	0x17, r24	; 23
+	PORTB = 0x00;				// LED는 끈 상태에서 시작
+ 24c:	18 ba       	out	0x18, r1	; 24
+	
+	OCR1A = 0x3FFF;			// 비교일치 A (1/4초 간격)
+ 24e:	8f ef       	ldi	r24, 0xFF	; 255
+ 250:	9f e3       	ldi	r25, 0x3F	; 63
+ 252:	9b bd       	out	0x2b, r25	; 43
+ 254:	8a bd       	out	0x2a, r24	; 42
+	OCR1B = 0x7FFF;			// 비교일치 B (2/4초 간격)
+ 256:	8f ef       	ldi	r24, 0xFF	; 255
+ 258:	9f e7       	ldi	r25, 0x7F	; 127
+ 25a:	99 bd       	out	0x29, r25	; 41
+ 25c:	88 bd       	out	0x28, r24	; 40
+	OCR1C = 0xBFFF;			// 비교일치 C (3/4초 간격)
+ 25e:	8f ef       	ldi	r24, 0xFF	; 255
+ 260:	9f eb       	ldi	r25, 0xBF	; 191
+ 262:	90 93 79 00 	sts	0x0079, r25	; 0x800079 <__TEXT_REGION_LENGTH__+0x7e0079>
+ 266:	80 93 78 00 	sts	0x0078, r24	; 0x800078 <__TEXT_REGION_LENGTH__+0x7e0078>
+	
+	TCCR1B |= (1 << CS12);		// 분주비를 256으로 설정
+ 26a:	8e b5       	in	r24, 0x2e	; 46
+ 26c:	84 60       	ori	r24, 0x04	; 4
+ 26e:	8e bd       	out	0x2e, r24	; 46
+
+	// 비교일치 A & B, 오버플로 인터럽트 허용
+	TIMSK |= (1 << OCIE1A) | (1 << OCIE1B) | (1 << TOIE1);
+ 270:	87 b7       	in	r24, 0x37	; 55
+ 272:	8c 61       	ori	r24, 0x1C	; 28
+ 274:	87 bf       	out	0x37, r24	; 55
+	// 비교일치 C 인터럽트 허용
+	ETIMSK |= (1 << OCIE1C);
+ 276:	ed e7       	ldi	r30, 0x7D	; 125
+ 278:	f0 e0       	ldi	r31, 0x00	; 0
+ 27a:	80 81       	ld	r24, Z
+ 27c:	81 60       	ori	r24, 0x01	; 1
+ 27e:	80 83       	st	Z, r24
+	
+	sei();							// 전역적으로 인터럽트 허용
+ 280:	78 94       	sei
+	
+	while(1){ }
+ 282:	ff cf       	rjmp	.-2      	; 0x282 <main+0x3a>
+
+00000284 <_exit>:
+ 284:	f8 94       	cli
+
+00000286 <__stop_program>:
+ 286:	ff cf       	rjmp	.-2      	; 0x286 <__stop_program>

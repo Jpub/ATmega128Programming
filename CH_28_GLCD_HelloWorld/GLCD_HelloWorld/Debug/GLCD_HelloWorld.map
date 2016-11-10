@@ -1,0 +1,1179 @@
+Archive member included to satisfy reference by file (symbol)
+
+../../u8g/Debug\libu8g.a(u8g_circle.o)
+                              main.o (u8g_DrawCircle)
+../../u8g/Debug\libu8g.a(u8g_clip.o)
+                              ../../u8g/Debug\libu8g.a(u8g_circle.o) (u8g_IsBBXIntersection)
+../../u8g/Debug\libu8g.a(u8g_com_io.o)
+                              main.o (u8g_Pin)
+../../u8g/Debug\libu8g.a(u8g_delay.o)
+                              main.o (u8g_Delay)
+../../u8g/Debug\libu8g.a(u8g_dev_ks0108_128x64.o)
+                              main.o (u8g_dev_ks0108_128x64)
+../../u8g/Debug\libu8g.a(u8g_line.o)
+                              main.o (u8g_DrawLine)
+../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+                              main.o (u8g_Init8Bit)
+../../u8g/Debug\libu8g.a(u8g_pb8v1.o)
+                              ../../u8g/Debug\libu8g.a(u8g_dev_ks0108_128x64.o) (u8g_dev_pb8v1_base_fn)
+../../u8g/Debug\libu8g.a(u8g_rect.o)
+                              ../../u8g/Debug\libu8g.a(u8g_circle.o) (u8g_DrawVLine)
+../../u8g/Debug\libu8g.a(u8g_state.o)
+                              ../../u8g/Debug\libu8g.a(u8g_ll_api.o) (u8g_state_dummy_cb)
+../../u8g/Debug\libu8g.a(u8g_com_api.o)
+                              ../../u8g/Debug\libu8g.a(u8g_dev_ks0108_128x64.o) (u8g_InitCom)
+../../u8g/Debug\libu8g.a(u8g_com_atmega_parallel.o)
+                              ../../u8g/Debug\libu8g.a(u8g_dev_ks0108_128x64.o) (u8g_com_atmega_parallel_fn)
+../../u8g/Debug\libu8g.a(u8g_font.o)
+                              ../../u8g/Debug\libu8g.a(u8g_ll_api.o) (u8g_SetFontPosBaseline)
+../../u8g/Debug\libu8g.a(u8g_page.o)
+                              ../../u8g/Debug\libu8g.a(u8g_pb8v1.o) (u8g_page_First)
+../../u8g/Debug\libu8g.a(u8g_pb.o)
+                              ../../u8g/Debug\libu8g.a(u8g_pb8v1.o) (u8g_pb_Clear)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+                              C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.0.106/gcc/dev/atmega128a/avr51/crtatmega128a.o (exit)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_tablejump2.o)
+                              ../../u8g/Debug\libu8g.a(u8g_pb8v1.o) (__tablejump2__)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+                              ../../u8g/Debug\libu8g.a(u8g_dev_ks0108_128x64.o) (__do_copy_data)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+                              main.o (__do_clear_bss)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(memcpy_P.o)
+                              ../../u8g/Debug\libu8g.a(u8g_com_io.o) (memcpy_P)
+
+Allocating common symbols
+Common symbol       size              file
+
+u8g                 0x37              main.o
+global_SREG_backup  0x1               ../../u8g/Debug\libu8g.a(u8g_state.o)
+
+Discarded input sections
+
+ .data          0x00000000        0x0 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.0.106/gcc/dev/atmega128a/avr51/crtatmega128a.o
+ .bss           0x00000000        0x0 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.0.106/gcc/dev/atmega128a/avr51/crtatmega128a.o
+ .text          0x00000000        0x0 main.o
+ .data          0x00000000        0x0 main.o
+ .bss           0x00000000        0x0 main.o
+ .text          0x00000000        0x0 ../../u8g/Debug\libu8g.a(u8g_circle.o)
+ .data          0x00000000        0x0 ../../u8g/Debug\libu8g.a(u8g_circle.o)
+ .bss           0x00000000        0x0 ../../u8g/Debug\libu8g.a(u8g_circle.o)
+ .text.u8g_draw_disc_section
+                0x00000000       0xbc ../../u8g/Debug\libu8g.a(u8g_circle.o)
+ .text.u8g_draw_disc
+                0x00000000       0x8a ../../u8g/Debug\libu8g.a(u8g_circle.o)
+ .text.u8g_DrawDisc
+                0x00000000       0x4e ../../u8g/Debug\libu8g.a(u8g_circle.o)
+ .text          0x00000000        0x0 ../../u8g/Debug\libu8g.a(u8g_clip.o)
+ .data          0x00000000        0x0 ../../u8g/Debug\libu8g.a(u8g_clip.o)
+ .bss           0x00000000        0x0 ../../u8g/Debug\libu8g.a(u8g_clip.o)
+ .text          0x00000000        0x0 ../../u8g/Debug\libu8g.a(u8g_com_io.o)
+ .data          0x00000000        0x0 ../../u8g/Debug\libu8g.a(u8g_com_io.o)
+ .bss           0x00000000        0x0 ../../u8g/Debug\libu8g.a(u8g_com_io.o)
+ .text.u8g_SetPinInput
+                0x00000000       0x32 ../../u8g/Debug\libu8g.a(u8g_com_io.o)
+ .text.u8g_GetPinLevel
+                0x00000000       0x2e ../../u8g/Debug\libu8g.a(u8g_com_io.o)
+ .progmem.data.u8g_avr_pin_P
+                0x00000000        0xe ../../u8g/Debug\libu8g.a(u8g_com_io.o)
+ .text          0x00000000        0x0 ../../u8g/Debug\libu8g.a(u8g_delay.o)
+ .data          0x00000000        0x0 ../../u8g/Debug\libu8g.a(u8g_delay.o)
+ .bss           0x00000000        0x0 ../../u8g/Debug\libu8g.a(u8g_delay.o)
+ .text          0x00000000        0x0 ../../u8g/Debug\libu8g.a(u8g_dev_ks0108_128x64.o)
+ .data          0x00000000        0x0 ../../u8g/Debug\libu8g.a(u8g_dev_ks0108_128x64.o)
+ .bss           0x00000000        0x0 ../../u8g/Debug\libu8g.a(u8g_dev_ks0108_128x64.o)
+ .data.u8g_dev_ks0108_128x64_fast
+                0x00000000        0x6 ../../u8g/Debug\libu8g.a(u8g_dev_ks0108_128x64.o)
+ .data.u8g_dev_ks0108_128x64_fast_pb
+                0x00000000        0x8 ../../u8g/Debug\libu8g.a(u8g_dev_ks0108_128x64.o)
+ .bss.u8g_dev_ks0108_128x64_fast_buf
+                0x00000000       0x80 ../../u8g/Debug\libu8g.a(u8g_dev_ks0108_128x64.o)
+ .text          0x00000000        0x0 ../../u8g/Debug\libu8g.a(u8g_line.o)
+ .data          0x00000000        0x0 ../../u8g/Debug\libu8g.a(u8g_line.o)
+ .bss           0x00000000        0x0 ../../u8g/Debug\libu8g.a(u8g_line.o)
+ .text          0x00000000        0x0 ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+ .data          0x00000000        0x0 ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+ .bss           0x00000000        0x0 ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+ .text.u8g_SetContrastLL
+                0x00000000       0x20 ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+ .text.u8g_Draw8PixelLL
+                0x00000000       0x20 ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+ .text.u8g_Draw4TPixelLL
+                0x00000000       0x20 ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+ .text.u8g_Init
+                0x00000000       0x24 ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+ .text.u8g_InitComFn
+                0x00000000       0x48 ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+ .text.u8g_InitSPI
+                0x00000000       0x46 ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+ .text.u8g_InitHWSPI
+                0x00000000       0x3a ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+ .text.u8g_InitI2C
+                0x00000000       0x2c ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+ .text.u8g_Init8BitFixedPort
+                0x00000000       0x46 ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+ .text.u8g_InitRW8Bit
+                0x00000000       0x78 ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+ .text.u8g_SetContrast
+                0x00000000        0xe ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+ .text.u8g_SleepOn
+                0x00000000       0x12 ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+ .text.u8g_SleepOff
+                0x00000000       0x12 ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+ .text.u8g_Draw4TPixel
+                0x00000000       0x24 ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+ .text.u8g_Draw8ColorPixel
+                0x00000000       0x22 ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+ .text.u8g_SetColorEntry
+                0x00000000       0x38 ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+ .text.u8g_SetColorIndex
+                0x00000000        0x6 ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+ .text.u8g_SetHiColor
+                0x00000000        0x8 ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+ .text.u8g_SetHiColorByRGB
+                0x00000000       0x2c ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+ .text.u8g_SetRGB
+                0x00000000       0x36 ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+ .text.u8g_GetColorIndex
+                0x00000000        0x6 ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+ .text.u8g_GetDefaultForegroundColor
+                0x00000000       0x18 ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+ .text.u8g_SetDefaultForegroundColor
+                0x00000000       0x22 ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+ .text.u8g_GetDefaultBackgroundColor
+                0x00000000        0x4 ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+ .text.u8g_SetDefaultBackgroundColor
+                0x00000000        0x6 ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+ .text.u8g_GetDefaultMidColor
+                0x00000000       0x10 ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+ .text.u8g_SetDefaultMidColor
+                0x00000000       0x14 ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+ .text          0x00000000        0x0 ../../u8g/Debug\libu8g.a(u8g_pb8v1.o)
+ .data          0x00000000        0x0 ../../u8g/Debug\libu8g.a(u8g_pb8v1.o)
+ .bss           0x00000000        0x0 ../../u8g/Debug\libu8g.a(u8g_pb8v1.o)
+ .text.u8g_pb8v1_Init
+                0x00000000        0xe ../../u8g/Debug\libu8g.a(u8g_pb8v1.o)
+ .text.u8g_pb8v1_Set8PixelStd
+                0x00000000       0x68 ../../u8g/Debug\libu8g.a(u8g_pb8v1.o)
+ .text          0x00000000        0x0 ../../u8g/Debug\libu8g.a(u8g_rect.o)
+ .data          0x00000000        0x0 ../../u8g/Debug\libu8g.a(u8g_rect.o)
+ .bss           0x00000000        0x0 ../../u8g/Debug\libu8g.a(u8g_rect.o)
+ .text.u8g_DrawHLine
+                0x00000000       0x38 ../../u8g/Debug\libu8g.a(u8g_rect.o)
+ .text.u8g_DrawVLine
+                0x00000000       0x3a ../../u8g/Debug\libu8g.a(u8g_rect.o)
+ .text.u8g_DrawFrame
+                0x00000000       0x68 ../../u8g/Debug\libu8g.a(u8g_rect.o)
+ .text.u8g_draw_box
+                0x00000000       0x34 ../../u8g/Debug\libu8g.a(u8g_rect.o)
+ .text.u8g_DrawBox
+                0x00000000       0x3a ../../u8g/Debug\libu8g.a(u8g_rect.o)
+ .text.u8g_DrawRBox
+                0x00000000       0xd6 ../../u8g/Debug\libu8g.a(u8g_rect.o)
+ .text          0x00000000        0x0 ../../u8g/Debug\libu8g.a(u8g_state.o)
+ .data          0x00000000        0x0 ../../u8g/Debug\libu8g.a(u8g_state.o)
+ .bss           0x00000000        0x0 ../../u8g/Debug\libu8g.a(u8g_state.o)
+ .text.u8g_SetHardwareBackup
+                0x00000000        0xe ../../u8g/Debug\libu8g.a(u8g_state.o)
+ .text.u8g_backup_spi
+                0x00000000       0x30 ../../u8g/Debug\libu8g.a(u8g_state.o)
+ .bss.u8g_state_avr_spi_memory
+                0x00000000        0x2 ../../u8g/Debug\libu8g.a(u8g_state.o)
+ COMMON         0x00000000        0x1 ../../u8g/Debug\libu8g.a(u8g_state.o)
+ .text          0x00000000        0x0 ../../u8g/Debug\libu8g.a(u8g_com_api.o)
+ .data          0x00000000        0x0 ../../u8g/Debug\libu8g.a(u8g_com_api.o)
+ .bss           0x00000000        0x0 ../../u8g/Debug\libu8g.a(u8g_com_api.o)
+ .text.u8g_StopCom
+                0x00000000       0x16 ../../u8g/Debug\libu8g.a(u8g_com_api.o)
+ .text.u8g_WriteSequenceP
+                0x00000000       0x10 ../../u8g/Debug\libu8g.a(u8g_com_api.o)
+ .text          0x00000000        0x0 ../../u8g/Debug\libu8g.a(u8g_com_atmega_parallel.o)
+ .data          0x00000000        0x0 ../../u8g/Debug\libu8g.a(u8g_com_atmega_parallel.o)
+ .bss           0x00000000        0x0 ../../u8g/Debug\libu8g.a(u8g_com_atmega_parallel.o)
+ .text          0x00000000        0x0 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .data          0x00000000        0x0 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .bss           0x00000000        0x0 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_font_get_word
+                0x00000000       0x18 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_font_GetFormat
+                0x00000000        0x6 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_font_GetFontGlyphStructureSize
+                0x00000000       0x14 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_font_calc_vref_bottom
+                0x00000000        0x6 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_font_calc_vref_top
+                0x00000000        0x8 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_font_calc_vref_center
+                0x00000000       0x18 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_font_get_char
+                0x00000000        0x6 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_font_get_charP
+                0x00000000        0x6 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_font_GetCapitalAHeight
+                0x00000000        0x8 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_font_GetEncoding65Pos
+                0x00000000        0x8 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_font_GetEncoding97Pos
+                0x00000000        0x8 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_font_GetFontStartEncoding
+                0x00000000        0x8 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_font_GetFontEndEncoding
+                0x00000000        0x8 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_font_GetLowerGDescent
+                0x00000000        0x8 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_font_GetFontAscent
+                0x00000000        0x8 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_font_GetFontDescent
+                0x00000000        0x8 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_font_GetFontXAscent
+                0x00000000        0x8 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_font_GetFontXDescent
+                0x00000000        0x8 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_font_GetSize
+                0x00000000       0x7a ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_GetFontBBXWidth
+                0x00000000       0x10 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_GetFontBBXHeight
+                0x00000000       0x10 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_GetFontBBXOffX
+                0x00000000       0x10 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_GetFontBBXOffY
+                0x00000000       0x10 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_GetFontCapitalAHeight
+                0x00000000       0x10 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_GetGlyph
+                0x00000000      0x1ca ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_font_calc_str_min_box
+                0x00000000       0xae ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_IsGlyph
+                0x00000000       0x10 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_GetGlyphDeltaX
+                0x00000000       0x1a ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_draw_glyph
+                0x00000000       0xe0 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_DrawGlyph
+                0x00000000       0x32 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_draw_glyph90
+                0x00000000       0xec ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_DrawGlyph90
+                0x00000000       0x32 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_draw_glyph180
+                0x00000000       0xf0 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_DrawGlyph180
+                0x00000000       0x32 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_draw_glyph270
+                0x00000000       0xe6 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_DrawGlyph270
+                0x00000000       0x32 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_DrawStr
+                0x00000000       0x60 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_DrawStr90
+                0x00000000       0x60 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_DrawStr180
+                0x00000000       0x60 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_DrawStr270
+                0x00000000       0x60 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_DrawStrDir
+                0x00000000       0x3c ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_DrawStrP
+                0x00000000       0x5c ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_DrawStr90P
+                0x00000000       0x5c ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_DrawStr180P
+                0x00000000       0x5c ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_DrawStr270P
+                0x00000000       0x5c ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_DrawStrFontBBX
+                0x00000000       0x40 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_DrawGlyphFontBBX
+                0x00000000       0x38 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_UpdateRefHeight
+                0x00000000       0xac ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_SetFontRefHeightText
+                0x00000000        0xa ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_SetFontRefHeightExtendedText
+                0x00000000        0xc ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_SetFontRefHeightAll
+                0x00000000        0xc ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_SetFontLineSpacingFactor
+                0x00000000        0xa ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_SetFontPosBottom
+                0x00000000        0xc ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_SetFontPosTop
+                0x00000000        0xc ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_SetFontPosCenter
+                0x00000000        0xc ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_font_calc_str_pixel_width
+                0x00000000       0x80 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_GetStrPixelWidth
+                0x00000000        0xa ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_GetStrPixelWidthP
+                0x00000000        0xa ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_GetStrX
+                0x00000000       0x16 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_GetStrXP
+                0x00000000       0x16 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_GetStrWidth
+                0x00000000       0x3c ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_GetStrWidthP
+                0x00000000       0x40 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_font_box_min
+                0x00000000        0x6 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_font_box_left_gA
+                0x00000000        0x2 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_font_box_all_gA
+                0x00000000        0x2 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_GetStrMinBox
+                0x00000000       0xa4 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_GetStrAMinBox
+                0x00000000       0xc8 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_SetFont
+                0x00000000       0x28 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_draw_aa_glyph
+                0x00000000       0xde ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_DrawAAGlyph
+                0x00000000       0x32 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text.u8g_DrawAAStr
+                0x00000000       0x78 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .text          0x00000000        0x0 ../../u8g/Debug\libu8g.a(u8g_page.o)
+ .data          0x00000000        0x0 ../../u8g/Debug\libu8g.a(u8g_page.o)
+ .bss           0x00000000        0x0 ../../u8g/Debug\libu8g.a(u8g_page.o)
+ .text.u8g_page_Init
+                0x00000000        0xe ../../u8g/Debug\libu8g.a(u8g_page.o)
+ .text          0x00000000        0x0 ../../u8g/Debug\libu8g.a(u8g_pb.o)
+ .data          0x00000000        0x0 ../../u8g/Debug\libu8g.a(u8g_pb.o)
+ .bss           0x00000000        0x0 ../../u8g/Debug\libu8g.a(u8g_pb.o)
+ .text.u8g_pb_IsXIntersection
+                0x00000000       0x16 ../../u8g/Debug\libu8g.a(u8g_pb.o)
+ .text.u8g_pb_IsIntersection
+                0x00000000       0x44 ../../u8g/Debug\libu8g.a(u8g_pb.o)
+ .text.u8g_pb_WriteBuffer
+                0x00000000       0x12 ../../u8g/Debug\libu8g.a(u8g_pb.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_tablejump2.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_tablejump2.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_tablejump2.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_tablejump2.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_tablejump2.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_tablejump2.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_tablejump2.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_tablejump2.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_tablejump2.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(memcpy_P.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(memcpy_P.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(memcpy_P.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800100         0x0000ff00         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+user_signatures  0x00850000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.0.106/gcc/dev/atmega128a/avr51/crtatmega128a.o
+LOAD main.o
+START GROUP
+LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a
+LOAD ../../u8g/Debug\libu8g.a
+END GROUP
+START GROUP
+LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a
+LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a
+LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a
+LOAD C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.0.106/gcc/dev/atmega128a/avr51\libatmega128a.a
+END GROUP
+                0x00020000                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x20000
+                0x0000ff00                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xff00
+                0x00010000                __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                0x00000400                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x00000400                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x00000400                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x00000400                __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x119e
+ *(.vectors)
+ .vectors       0x00000000       0x8c C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.0.106/gcc/dev/atmega128a/avr51/crtatmega128a.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+ .progmem.gcc_sw_table.u8g_dev_pb8v1_base_fn
+                0x0000008c       0x68 ../../u8g/Debug\libu8g.a(u8g_pb8v1.o)
+ .progmem.gcc_sw_table.u8g_com_atmega_parallel_fn
+                0x000000f4        0xe ../../u8g/Debug\libu8g.a(u8g_com_atmega_parallel.o)
+                0x00000102                . = ALIGN (0x2)
+                0x00000102                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000102        0x0 linker stubs
+ *(.trampolines*)
+                0x00000102                __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem*)
+ .progmem.data.u8g_avr_port_P
+                0x00000102        0xe ../../u8g/Debug\libu8g.a(u8g_com_io.o)
+                0x00000102                u8g_avr_port_P
+ .progmem.data.u8g_avr_ddr_P
+                0x00000110        0xe ../../u8g/Debug\libu8g.a(u8g_com_io.o)
+                0x00000110                u8g_avr_ddr_P
+ .progmem.data.u8g_dev_ks0108_128x64_init_seq
+                0x0000011e       0x16 ../../u8g/Debug\libu8g.a(u8g_dev_ks0108_128x64.o)
+                0x00000134                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000134                __ctors_start = .
+ *(.ctors)
+                0x00000134                __ctors_end = .
+                0x00000134                __dtors_start = .
+ *(.dtors)
+                0x00000134                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000134        0x0 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.0.106/gcc/dev/atmega128a/avr51/crtatmega128a.o
+                0x00000134                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000134        0xc C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.0.106/gcc/dev/atmega128a/avr51/crtatmega128a.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000140       0x1a c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+                0x00000140                __do_copy_data
+ .init4         0x0000015a       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+                0x0000015a                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x0000016a        0x6 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.0.106/gcc/dev/atmega128a/avr51/crtatmega128a.o
+ *(.init9)
+ *(.text)
+ .text          0x00000170        0x2 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.0.106/gcc/dev/atmega128a/avr51/crtatmega128a.o
+                0x00000170                __vector_22
+                0x00000170                __vector_28
+                0x00000170                __vector_1
+                0x00000170                __vector_32
+                0x00000170                __vector_34
+                0x00000170                __vector_24
+                0x00000170                __vector_12
+                0x00000170                __bad_interrupt
+                0x00000170                __vector_6
+                0x00000170                __vector_31
+                0x00000170                __vector_3
+                0x00000170                __vector_23
+                0x00000170                __vector_30
+                0x00000170                __vector_25
+                0x00000170                __vector_11
+                0x00000170                __vector_13
+                0x00000170                __vector_17
+                0x00000170                __vector_19
+                0x00000170                __vector_7
+                0x00000170                __vector_27
+                0x00000170                __vector_5
+                0x00000170                __vector_33
+                0x00000170                __vector_4
+                0x00000170                __vector_9
+                0x00000170                __vector_2
+                0x00000170                __vector_21
+                0x00000170                __vector_15
+                0x00000170                __vector_29
+                0x00000170                __vector_8
+                0x00000170                __vector_26
+                0x00000170                __vector_14
+                0x00000170                __vector_10
+                0x00000170                __vector_16
+                0x00000170                __vector_18
+                0x00000170                __vector_20
+                0x00000172                . = ALIGN (0x2)
+ *(.text.*)
+ .text.u8g_setup
+                0x00000172       0xc6 main.o
+                0x00000172                u8g_setup
+ .text.draw     0x00000238       0x52 main.o
+                0x00000238                draw
+ .text.main     0x0000028a       0x1c main.o
+                0x0000028a                main
+ .text.u8g_draw_circle_section
+                0x000002a6       0x94 ../../u8g/Debug\libu8g.a(u8g_circle.o)
+ .text.u8g_draw_circle
+                0x0000033a       0x86 ../../u8g/Debug\libu8g.a(u8g_circle.o)
+                0x0000033a                u8g_draw_circle
+ .text.u8g_DrawCircle
+                0x000003c0       0x4a ../../u8g/Debug\libu8g.a(u8g_circle.o)
+                0x000003c0                u8g_DrawCircle
+ .text.u8g_IsBBXIntersection
+                0x0000040a       0x64 ../../u8g/Debug\libu8g.a(u8g_clip.o)
+                0x0000040a                u8g_IsBBXIntersection
+ .text.u8g_get_avr_io_ptr
+                0x0000046e       0x2c ../../u8g/Debug\libu8g.a(u8g_com_io.o)
+ .text.u8g_Pin  0x0000049a        0xa ../../u8g/Debug\libu8g.a(u8g_com_io.o)
+                0x0000049a                u8g_Pin
+ .text.u8g_SetPinOutput
+                0x000004a4       0x2e ../../u8g/Debug\libu8g.a(u8g_com_io.o)
+                0x000004a4                u8g_SetPinOutput
+ .text.u8g_SetPinLevel
+                0x000004d2       0x60 ../../u8g/Debug\libu8g.a(u8g_com_io.o)
+                0x000004d2                u8g_SetPinLevel
+ .text.u8g_SetPIOutput
+                0x00000532       0x10 ../../u8g/Debug\libu8g.a(u8g_com_io.o)
+                0x00000532                u8g_SetPIOutput
+ .text.u8g_SetPILevel
+                0x00000542       0x12 ../../u8g/Debug\libu8g.a(u8g_com_io.o)
+                0x00000542                u8g_SetPILevel
+ .text.u8g_Delay
+                0x00000554       0x14 ../../u8g/Debug\libu8g.a(u8g_delay.o)
+                0x00000554                u8g_Delay
+ .text.u8g_MicroDelay
+                0x00000568        0xa ../../u8g/Debug\libu8g.a(u8g_delay.o)
+                0x00000568                u8g_MicroDelay
+ .text.u8g_10MicroDelay
+                0x00000572        0xa ../../u8g/Debug\libu8g.a(u8g_delay.o)
+                0x00000572                u8g_10MicroDelay
+ .text.u8g_dev_ks0108_128x64_fn
+                0x0000057c       0xe2 ../../u8g/Debug\libu8g.a(u8g_dev_ks0108_128x64.o)
+                0x0000057c                u8g_dev_ks0108_128x64_fn
+ .text.u8g_DrawLine
+                0x0000065e      0x10c ../../u8g/Debug\libu8g.a(u8g_line.o)
+                0x0000065e                u8g_DrawLine
+ .text.u8g_init_data
+                0x0000076a       0x56 ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+ .text.u8g_call_dev_fn
+                0x000007c0        0xa ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+                0x000007c0                u8g_call_dev_fn
+ .text.u8g_InitLL
+                0x000007ca       0x3e ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+                0x000007ca                u8g_InitLL
+ .text.u8g_FirstPageLL
+                0x00000808       0x48 ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+                0x00000808                u8g_FirstPageLL
+ .text.u8g_NextPageLL
+                0x00000850       0x54 ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+                0x00000850                u8g_NextPageLL
+ .text.u8g_DrawPixelLL
+                0x000008a4       0x12 ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+                0x000008a4                u8g_DrawPixelLL
+ .text.u8g_GetWidthLL
+                0x000008b6       0x1e ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+                0x000008b6                u8g_GetWidthLL
+ .text.u8g_GetHeightLL
+                0x000008d4       0x1e ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+                0x000008d4                u8g_GetHeightLL
+ .text.u8g_GetModeLL
+                0x000008f2        0xa ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+                0x000008f2                u8g_GetModeLL
+ .text.u8g_UpdateDimension
+                0x000008fc       0x38 ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+                0x000008fc                u8g_UpdateDimension
+ .text.u8g_Begin
+                0x00000934       0x1c ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+                0x00000934                u8g_Begin
+ .text.u8g_Init8Bit
+                0x00000950       0x78 ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+                0x00000950                u8g_Init8Bit
+ .text.u8g_FirstPage
+                0x000009c8        0xa ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+                0x000009c8                u8g_FirstPage
+ .text.u8g_NextPage
+                0x000009d2       0x1e ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+                0x000009d2                u8g_NextPage
+ .text.u8g_DrawPixel
+                0x000009f0       0x10 ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+                0x000009f0                u8g_DrawPixel
+ .text.u8g_Draw8Pixel
+                0x00000a00       0x22 ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+                0x00000a00                u8g_Draw8Pixel
+ .text.u8g_pb8v1_set_pixel
+                0x00000a22       0x3a ../../u8g/Debug\libu8g.a(u8g_pb8v1.o)
+                0x00000a22                u8g_pb8v1_set_pixel
+ .text.u8g_pb8v1_SetPixel
+                0x00000a5c       0x28 ../../u8g/Debug\libu8g.a(u8g_pb8v1.o)
+                0x00000a5c                u8g_pb8v1_SetPixel
+ .text.u8g_pb8v1_Set8PixelOpt2
+                0x00000a84       0x70 ../../u8g/Debug\libu8g.a(u8g_pb8v1.o)
+                0x00000a84                u8g_pb8v1_Set8PixelOpt2
+ .text.u8g_dev_pb8v1_base_fn
+                0x00000af4       0x8a ../../u8g/Debug\libu8g.a(u8g_pb8v1.o)
+                0x00000af4                u8g_dev_pb8v1_base_fn
+ .text.u8g_draw_hline
+                0x00000b7e       0x86 ../../u8g/Debug\libu8g.a(u8g_rect.o)
+                0x00000b7e                u8g_draw_hline
+ .text.u8g_draw_vline
+                0x00000c04       0x86 ../../u8g/Debug\libu8g.a(u8g_rect.o)
+                0x00000c04                u8g_draw_vline
+ .text.u8g_DrawRFrame
+                0x00000c8a       0xda ../../u8g/Debug\libu8g.a(u8g_rect.o)
+                0x00000c8a                u8g_DrawRFrame
+ .text.u8g_state_dummy_cb
+                0x00000d64        0x2 ../../u8g/Debug\libu8g.a(u8g_state.o)
+                0x00000d64                u8g_state_dummy_cb
+ .text.u8g_InitCom
+                0x00000d66       0x14 ../../u8g/Debug\libu8g.a(u8g_com_api.o)
+                0x00000d66                u8g_InitCom
+ .text.u8g_SetChipSelect
+                0x00000d7a       0x14 ../../u8g/Debug\libu8g.a(u8g_com_api.o)
+                0x00000d7a                u8g_SetChipSelect
+ .text.u8g_SetResetLow
+                0x00000d8e       0x16 ../../u8g/Debug\libu8g.a(u8g_com_api.o)
+                0x00000d8e                u8g_SetResetLow
+ .text.u8g_SetResetHigh
+                0x00000da4       0x16 ../../u8g/Debug\libu8g.a(u8g_com_api.o)
+                0x00000da4                u8g_SetResetHigh
+ .text.u8g_SetAddress
+                0x00000dba       0x14 ../../u8g/Debug\libu8g.a(u8g_com_api.o)
+                0x00000dba                u8g_SetAddress
+ .text.u8g_WriteByte
+                0x00000dce       0x14 ../../u8g/Debug\libu8g.a(u8g_com_api.o)
+                0x00000dce                u8g_WriteByte
+ .text.u8g_WriteSequence
+                0x00000de2       0x10 ../../u8g/Debug\libu8g.a(u8g_com_api.o)
+                0x00000de2                u8g_WriteSequence
+ .text.u8g_WriteEscSeqP
+                0x00000df2       0xda ../../u8g/Debug\libu8g.a(u8g_com_api.o)
+                0x00000df2                u8g_WriteEscSeqP
+ .text.u8g_com_atmega_parallel_write
+                0x00000ecc       0x82 ../../u8g/Debug\libu8g.a(u8g_com_atmega_parallel.o)
+ .text.u8g_com_atmega_parallel_fn
+                0x00000f4e      0x14e ../../u8g/Debug\libu8g.a(u8g_com_atmega_parallel.o)
+                0x00000f4e                u8g_com_atmega_parallel_fn
+ .text.u8g_font_calc_vref_font
+                0x0000109c        0x4 ../../u8g/Debug\libu8g.a(u8g_font.o)
+                0x0000109c                u8g_font_calc_vref_font
+ .text.u8g_SetFontPosBaseline
+                0x000010a0        0xc ../../u8g/Debug\libu8g.a(u8g_font.o)
+                0x000010a0                u8g_SetFontPosBaseline
+ .text.u8g_page_First
+                0x000010ac        0xe ../../u8g/Debug\libu8g.a(u8g_page.o)
+                0x000010ac                u8g_page_First
+ .text.u8g_page_Next
+                0x000010ba       0x2c ../../u8g/Debug\libu8g.a(u8g_page.o)
+                0x000010ba                u8g_page_Next
+ .text.u8g_pb_Clear
+                0x000010e6       0x20 ../../u8g/Debug\libu8g.a(u8g_pb.o)
+                0x000010e6                u8g_pb_Clear
+ .text.u8g_pb_IsYIntersection
+                0x00001106       0x2c ../../u8g/Debug\libu8g.a(u8g_pb.o)
+                0x00001106                u8g_pb_IsYIntersection
+ .text.u8g_pb_GetPageBox
+                0x00001132       0x20 ../../u8g/Debug\libu8g.a(u8g_pb.o)
+                0x00001132                u8g_pb_GetPageBox
+ .text.u8g_pb_Is8PixelVisible
+                0x00001152       0x24 ../../u8g/Debug\libu8g.a(u8g_pb.o)
+                0x00001152                u8g_pb_Is8PixelVisible
+ .text.libgcc   0x00001176       0x12 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_tablejump2.o)
+                0x00001176                __tablejump2__
+ .text.avr-libc
+                0x00001188       0x12 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(memcpy_P.o)
+                0x00001188                memcpy_P
+                0x0000119a                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x0000119a        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+                0x0000119a                _exit
+                0x0000119a                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x0000119a        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ *(.fini0)
+                0x0000119e                _etext = .
+
+.data           0x00800100        0xe load address 0x0000119e
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ *(.data*)
+ .data.u8g_dev_ks0108_128x64
+                0x00800100        0x6 ../../u8g/Debug\libu8g.a(u8g_dev_ks0108_128x64.o)
+                0x00800100                u8g_dev_ks0108_128x64
+ .data.u8g_dev_ks0108_128x64_pb
+                0x00800106        0x8 ../../u8g/Debug\libu8g.a(u8g_dev_ks0108_128x64.o)
+                0x00800106                u8g_dev_ks0108_128x64_pb
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x0080010e                . = ALIGN (0x2)
+                0x0080010e                _edata = .
+                0x0080010e                PROVIDE (__data_end, .)
+
+.bss            0x0080010e       0xb7
+                0x0080010e                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ .bss.u8g_dev_ks0108_128x64_buf
+                0x0080010e       0x80 ../../u8g/Debug\libu8g.a(u8g_dev_ks0108_128x64.o)
+                0x0080010e                u8g_dev_ks0108_128x64_buf
+ *(COMMON)
+ COMMON         0x0080018e       0x37 main.o
+                0x0080018e                u8g
+                0x008001c5                PROVIDE (__bss_end, .)
+                0x0000119e                __data_load_start = LOADADDR (.data)
+                0x000011ac                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x008001c5        0x0
+                [!provide]                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                [!provide]                PROVIDE (__noinit_end, .)
+                0x008001c5                _end = .
+                [!provide]                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x30
+ *(.comment)
+ .comment       0x00000000       0x30 main.o
+                                 0x31 (size before relaxing)
+ .comment       0x00000030       0x31 ../../u8g/Debug\libu8g.a(u8g_circle.o)
+ .comment       0x00000030       0x31 ../../u8g/Debug\libu8g.a(u8g_clip.o)
+ .comment       0x00000030       0x31 ../../u8g/Debug\libu8g.a(u8g_com_io.o)
+ .comment       0x00000030       0x31 ../../u8g/Debug\libu8g.a(u8g_delay.o)
+ .comment       0x00000030       0x31 ../../u8g/Debug\libu8g.a(u8g_dev_ks0108_128x64.o)
+ .comment       0x00000030       0x31 ../../u8g/Debug\libu8g.a(u8g_line.o)
+ .comment       0x00000030       0x31 ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+ .comment       0x00000030       0x31 ../../u8g/Debug\libu8g.a(u8g_pb8v1.o)
+ .comment       0x00000030       0x31 ../../u8g/Debug\libu8g.a(u8g_rect.o)
+ .comment       0x00000030       0x31 ../../u8g/Debug\libu8g.a(u8g_state.o)
+ .comment       0x00000030       0x31 ../../u8g/Debug\libu8g.a(u8g_com_api.o)
+ .comment       0x00000030       0x31 ../../u8g/Debug\libu8g.a(u8g_com_atmega_parallel.o)
+ .comment       0x00000030       0x31 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .comment       0x00000030       0x31 ../../u8g/Debug\libu8g.a(u8g_page.o)
+ .comment       0x00000030       0x31 ../../u8g/Debug\libu8g.a(u8g_pb.o)
+
+.note.gnu.avr.deviceinfo
+                0x00000000       0x40
+ .note.gnu.avr.deviceinfo
+                0x00000000       0x40 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.0.106/gcc/dev/atmega128a/avr51/crtatmega128a.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x718
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x30 main.o
+ .debug_aranges
+                0x00000030       0x48 ../../u8g/Debug\libu8g.a(u8g_circle.o)
+ .debug_aranges
+                0x00000078       0x20 ../../u8g/Debug\libu8g.a(u8g_clip.o)
+ .debug_aranges
+                0x00000098       0x58 ../../u8g/Debug\libu8g.a(u8g_com_io.o)
+ .debug_aranges
+                0x000000f0       0x30 ../../u8g/Debug\libu8g.a(u8g_delay.o)
+ .debug_aranges
+                0x00000120       0x20 ../../u8g/Debug\libu8g.a(u8g_dev_ks0108_128x64.o)
+ .debug_aranges
+                0x00000140       0x20 ../../u8g/Debug\libu8g.a(u8g_line.o)
+ .debug_aranges
+                0x00000160      0x170 ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+ .debug_aranges
+                0x000002d0       0x48 ../../u8g/Debug\libu8g.a(u8g_pb8v1.o)
+ .debug_aranges
+                0x00000318       0x60 ../../u8g/Debug\libu8g.a(u8g_rect.o)
+ .debug_aranges
+                0x00000378       0x30 ../../u8g/Debug\libu8g.a(u8g_state.o)
+ .debug_aranges
+                0x000003a8       0x68 ../../u8g/Debug\libu8g.a(u8g_com_api.o)
+ .debug_aranges
+                0x00000410       0x28 ../../u8g/Debug\libu8g.a(u8g_com_atmega_parallel.o)
+ .debug_aranges
+                0x00000438      0x260 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .debug_aranges
+                0x00000698       0x30 ../../u8g/Debug\libu8g.a(u8g_page.o)
+ .debug_aranges
+                0x000006c8       0x50 ../../u8g/Debug\libu8g.a(u8g_pb.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0xc1a1
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x8b2 main.o
+ .debug_info    0x000008b2      0xc84 ../../u8g/Debug\libu8g.a(u8g_circle.o)
+ .debug_info    0x00001536      0x548 ../../u8g/Debug\libu8g.a(u8g_clip.o)
+ .debug_info    0x00001a7e      0x7e0 ../../u8g/Debug\libu8g.a(u8g_com_io.o)
+ .debug_info    0x0000225e      0x134 ../../u8g/Debug\libu8g.a(u8g_delay.o)
+ .debug_info    0x00002392      0x9b3 ../../u8g/Debug\libu8g.a(u8g_dev_ks0108_128x64.o)
+ .debug_info    0x00002d45      0x574 ../../u8g/Debug\libu8g.a(u8g_line.o)
+ .debug_info    0x000032b9     0x1bd4 ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+ .debug_info    0x00004e8d      0x8e6 ../../u8g/Debug\libu8g.a(u8g_pb8v1.o)
+ .debug_info    0x00005773      0xefe ../../u8g/Debug\libu8g.a(u8g_rect.o)
+ .debug_info    0x00006671      0x51f ../../u8g/Debug\libu8g.a(u8g_state.o)
+ .debug_info    0x00006b90      0xa1b ../../u8g/Debug\libu8g.a(u8g_com_api.o)
+ .debug_info    0x000075ab      0xa50 ../../u8g/Debug\libu8g.a(u8g_com_atmega_parallel.o)
+ .debug_info    0x00007ffb     0x3789 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .debug_info    0x0000b784      0x1a4 ../../u8g/Debug\libu8g.a(u8g_page.o)
+ .debug_info    0x0000b928      0x879 ../../u8g/Debug\libu8g.a(u8g_pb.o)
+
+.debug_abbrev   0x00000000     0x1e53
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x1af main.o
+ .debug_abbrev  0x000001af      0x206 ../../u8g/Debug\libu8g.a(u8g_circle.o)
+ .debug_abbrev  0x000003b5      0x16e ../../u8g/Debug\libu8g.a(u8g_clip.o)
+ .debug_abbrev  0x00000523      0x232 ../../u8g/Debug\libu8g.a(u8g_com_io.o)
+ .debug_abbrev  0x00000755       0xb0 ../../u8g/Debug\libu8g.a(u8g_delay.o)
+ .debug_abbrev  0x00000805      0x199 ../../u8g/Debug\libu8g.a(u8g_dev_ks0108_128x64.o)
+ .debug_abbrev  0x0000099e      0x16d ../../u8g/Debug\libu8g.a(u8g_line.o)
+ .debug_abbrev  0x00000b0b      0x3bc ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+ .debug_abbrev  0x00000ec7      0x1da ../../u8g/Debug\libu8g.a(u8g_pb8v1.o)
+ .debug_abbrev  0x000010a1      0x184 ../../u8g/Debug\libu8g.a(u8g_rect.o)
+ .debug_abbrev  0x00001225      0x16c ../../u8g/Debug\libu8g.a(u8g_state.o)
+ .debug_abbrev  0x00001391      0x19d ../../u8g/Debug\libu8g.a(u8g_com_api.o)
+ .debug_abbrev  0x0000152e      0x1bd ../../u8g/Debug\libu8g.a(u8g_com_atmega_parallel.o)
+ .debug_abbrev  0x000016eb      0x452 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .debug_abbrev  0x00001b3d       0xe5 ../../u8g/Debug\libu8g.a(u8g_page.o)
+ .debug_abbrev  0x00001c22      0x231 ../../u8g/Debug\libu8g.a(u8g_pb.o)
+
+.debug_line     0x00000000     0x36d9
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x130 main.o
+ .debug_line    0x00000130      0x280 ../../u8g/Debug\libu8g.a(u8g_circle.o)
+ .debug_line    0x000003b0      0x11b ../../u8g/Debug\libu8g.a(u8g_clip.o)
+ .debug_line    0x000004cb      0x283 ../../u8g/Debug\libu8g.a(u8g_com_io.o)
+ .debug_line    0x0000074e      0x15c ../../u8g/Debug\libu8g.a(u8g_delay.o)
+ .debug_line    0x000008aa      0x134 ../../u8g/Debug\libu8g.a(u8g_dev_ks0108_128x64.o)
+ .debug_line    0x000009de      0x1ea ../../u8g/Debug\libu8g.a(u8g_line.o)
+ .debug_line    0x00000bc8      0x912 ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+ .debug_line    0x000014da      0x2c5 ../../u8g/Debug\libu8g.a(u8g_pb8v1.o)
+ .debug_line    0x0000179f      0x325 ../../u8g/Debug\libu8g.a(u8g_rect.o)
+ .debug_line    0x00001ac4      0x100 ../../u8g/Debug\libu8g.a(u8g_state.o)
+ .debug_line    0x00001bc4      0x260 ../../u8g/Debug\libu8g.a(u8g_com_api.o)
+ .debug_line    0x00001e24      0x23c ../../u8g/Debug\libu8g.a(u8g_com_atmega_parallel.o)
+ .debug_line    0x00002060     0x1317 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .debug_line    0x00003377      0x134 ../../u8g/Debug\libu8g.a(u8g_page.o)
+ .debug_line    0x000034ab      0x22e ../../u8g/Debug\libu8g.a(u8g_pb.o)
+
+.debug_frame    0x00000000     0x1840
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xac main.o
+ .debug_frame   0x000000ac      0x17c ../../u8g/Debug\libu8g.a(u8g_circle.o)
+ .debug_frame   0x00000228       0x2c ../../u8g/Debug\libu8g.a(u8g_clip.o)
+ .debug_frame   0x00000254       0xc8 ../../u8g/Debug\libu8g.a(u8g_com_io.o)
+ .debug_frame   0x0000031c       0x44 ../../u8g/Debug\libu8g.a(u8g_delay.o)
+ .debug_frame   0x00000360       0x54 ../../u8g/Debug\libu8g.a(u8g_dev_ks0108_128x64.o)
+ .debug_frame   0x000003b4       0x58 ../../u8g/Debug\libu8g.a(u8g_line.o)
+ .debug_frame   0x0000040c      0x514 ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+ .debug_frame   0x00000920       0xc8 ../../u8g/Debug\libu8g.a(u8g_pb8v1.o)
+ .debug_frame   0x000009e8      0x21c ../../u8g/Debug\libu8g.a(u8g_rect.o)
+ .debug_frame   0x00000c04       0x44 ../../u8g/Debug\libu8g.a(u8g_state.o)
+ .debug_frame   0x00000c48       0xe8 ../../u8g/Debug\libu8g.a(u8g_com_api.o)
+ .debug_frame   0x00000d30       0x6c ../../u8g/Debug\libu8g.a(u8g_com_atmega_parallel.o)
+ .debug_frame   0x00000d9c      0x9c8 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .debug_frame   0x00001764       0x44 ../../u8g/Debug\libu8g.a(u8g_page.o)
+ .debug_frame   0x000017a8       0x98 ../../u8g/Debug\libu8g.a(u8g_pb.o)
+
+.debug_str      0x00000000     0x154c
+ *(.debug_str)
+ .debug_str     0x00000000      0x39d main.o
+                                0x44b (size before relaxing)
+ .debug_str     0x0000039d       0xfe ../../u8g/Debug\libu8g.a(u8g_circle.o)
+                                0x46f (size before relaxing)
+ .debug_str     0x0000049b       0x32 ../../u8g/Debug\libu8g.a(u8g_clip.o)
+                                0x3e3 (size before relaxing)
+ .debug_str     0x000004cd       0xfa ../../u8g/Debug\libu8g.a(u8g_com_io.o)
+                                0x4a4 (size before relaxing)
+ .debug_str     0x000005c7       0x47 ../../u8g/Debug\libu8g.a(u8g_delay.o)
+                                0x1b5 (size before relaxing)
+ .debug_str     0x0000060e      0x193 ../../u8g/Debug\libu8g.a(u8g_dev_ks0108_128x64.o)
+                                0x55d (size before relaxing)
+ .debug_str     0x000007a1       0x1d ../../u8g/Debug\libu8g.a(u8g_line.o)
+                                0x3dd (size before relaxing)
+ .debug_str     0x000007be      0x307 ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+                                0x6f4 (size before relaxing)
+ .debug_str     0x00000ac5       0xda ../../u8g/Debug\libu8g.a(u8g_pb8v1.o)
+                                0x4e3 (size before relaxing)
+ .debug_str     0x00000b9f       0x75 ../../u8g/Debug\libu8g.a(u8g_rect.o)
+                                0x470 (size before relaxing)
+ .debug_str     0x00000c14       0x7f ../../u8g/Debug\libu8g.a(u8g_state.o)
+                                0x41a (size before relaxing)
+ .debug_str     0x00000c93       0x94 ../../u8g/Debug\libu8g.a(u8g_com_api.o)
+                                0x4a0 (size before relaxing)
+ .debug_str     0x00000d27       0x68 ../../u8g/Debug\libu8g.a(u8g_com_atmega_parallel.o)
+                                0x45d (size before relaxing)
+ .debug_str     0x00000d8f      0x71f ../../u8g/Debug\libu8g.a(u8g_font.o)
+                                0xb61 (size before relaxing)
+ .debug_str     0x000014ae       0x1e ../../u8g/Debug\libu8g.a(u8g_page.o)
+                                0x1ee (size before relaxing)
+ .debug_str     0x000014cc       0x80 ../../u8g/Debug\libu8g.a(u8g_pb.o)
+                                0x4cd (size before relaxing)
+
+.debug_loc      0x00000000     0xafe9
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x169 main.o
+ .debug_loc     0x00000169      0xb28 ../../u8g/Debug\libu8g.a(u8g_circle.o)
+ .debug_loc     0x00000c91      0x288 ../../u8g/Debug\libu8g.a(u8g_clip.o)
+ .debug_loc     0x00000f19      0x39e ../../u8g/Debug\libu8g.a(u8g_com_io.o)
+ .debug_loc     0x000012b7       0x67 ../../u8g/Debug\libu8g.a(u8g_delay.o)
+ .debug_loc     0x0000131e      0x190 ../../u8g/Debug\libu8g.a(u8g_dev_ks0108_128x64.o)
+ .debug_loc     0x000014ae      0x468 ../../u8g/Debug\libu8g.a(u8g_line.o)
+ .debug_loc     0x00001916     0x21ee ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+ .debug_loc     0x00003b04      0x6d9 ../../u8g/Debug\libu8g.a(u8g_pb8v1.o)
+ .debug_loc     0x000041dd      0xeef ../../u8g/Debug\libu8g.a(u8g_rect.o)
+ .debug_loc     0x000050cc       0x7d ../../u8g/Debug\libu8g.a(u8g_state.o)
+ .debug_loc     0x00005149      0x67d ../../u8g/Debug\libu8g.a(u8g_com_api.o)
+ .debug_loc     0x000057c6      0x582 ../../u8g/Debug\libu8g.a(u8g_com_atmega_parallel.o)
+ .debug_loc     0x00005d48     0x4c74 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .debug_loc     0x0000a9bc       0xec ../../u8g/Debug\libu8g.a(u8g_page.o)
+ .debug_loc     0x0000aaa8      0x541 ../../u8g/Debug\libu8g.a(u8g_pb.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x808
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0x20 main.o
+ .debug_ranges  0x00000020       0x38 ../../u8g/Debug\libu8g.a(u8g_circle.o)
+ .debug_ranges  0x00000058       0x28 ../../u8g/Debug\libu8g.a(u8g_clip.o)
+ .debug_ranges  0x00000080       0x48 ../../u8g/Debug\libu8g.a(u8g_com_io.o)
+ .debug_ranges  0x000000c8       0x20 ../../u8g/Debug\libu8g.a(u8g_delay.o)
+ .debug_ranges  0x000000e8       0x10 ../../u8g/Debug\libu8g.a(u8g_dev_ks0108_128x64.o)
+ .debug_ranges  0x000000f8       0x10 ../../u8g/Debug\libu8g.a(u8g_line.o)
+ .debug_ranges  0x00000108      0x160 ../../u8g/Debug\libu8g.a(u8g_ll_api.o)
+ .debug_ranges  0x00000268       0x38 ../../u8g/Debug\libu8g.a(u8g_pb8v1.o)
+ .debug_ranges  0x000002a0       0x50 ../../u8g/Debug\libu8g.a(u8g_rect.o)
+ .debug_ranges  0x000002f0       0x20 ../../u8g/Debug\libu8g.a(u8g_state.o)
+ .debug_ranges  0x00000310       0x58 ../../u8g/Debug\libu8g.a(u8g_com_api.o)
+ .debug_ranges  0x00000368       0x48 ../../u8g/Debug\libu8g.a(u8g_com_atmega_parallel.o)
+ .debug_ranges  0x000003b0      0x3e0 ../../u8g/Debug\libu8g.a(u8g_font.o)
+ .debug_ranges  0x00000790       0x20 ../../u8g/Debug\libu8g.a(u8g_page.o)
+ .debug_ranges  0x000007b0       0x58 ../../u8g/Debug\libu8g.a(u8g_pb.o)
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(GLCD_HelloWorld.elf elf32-avr)
+LOAD linker stubs

@@ -1,0 +1,234 @@
+
+CH_15_01.elf:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .data         00000000  00800100  00800100  00000154  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  1 .text         00000100  00000000  00000000  00000054  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  2 .comment      00000030  00000000  00000000  00000154  2**0
+                  CONTENTS, READONLY
+  3 .note.gnu.avr.deviceinfo 00000040  00000000  00000000  00000184  2**2
+                  CONTENTS, READONLY
+  4 .debug_aranges 00000028  00000000  00000000  000001c4  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  5 .debug_info   00000178  00000000  00000000  000001ec  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_abbrev 00000120  00000000  00000000  00000364  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_line   00000183  00000000  00000000  00000484  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_frame  00000034  00000000  00000000  00000608  2**2
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_str    0000019e  00000000  00000000  0000063c  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_loc    0000007c  00000000  00000000  000007da  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 11 .debug_ranges 00000018  00000000  00000000  00000856  2**0
+                  CONTENTS, READONLY, DEBUGGING
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+   0:	45 c0       	rjmp	.+138    	; 0x8c <__ctors_end>
+   2:	00 00       	nop
+   4:	4b c0       	rjmp	.+150    	; 0x9c <__bad_interrupt>
+   6:	00 00       	nop
+   8:	49 c0       	rjmp	.+146    	; 0x9c <__bad_interrupt>
+   a:	00 00       	nop
+   c:	47 c0       	rjmp	.+142    	; 0x9c <__bad_interrupt>
+   e:	00 00       	nop
+  10:	45 c0       	rjmp	.+138    	; 0x9c <__bad_interrupt>
+  12:	00 00       	nop
+  14:	43 c0       	rjmp	.+134    	; 0x9c <__bad_interrupt>
+  16:	00 00       	nop
+  18:	41 c0       	rjmp	.+130    	; 0x9c <__bad_interrupt>
+  1a:	00 00       	nop
+  1c:	3f c0       	rjmp	.+126    	; 0x9c <__bad_interrupt>
+  1e:	00 00       	nop
+  20:	3d c0       	rjmp	.+122    	; 0x9c <__bad_interrupt>
+  22:	00 00       	nop
+  24:	3b c0       	rjmp	.+118    	; 0x9c <__bad_interrupt>
+  26:	00 00       	nop
+  28:	39 c0       	rjmp	.+114    	; 0x9c <__bad_interrupt>
+  2a:	00 00       	nop
+  2c:	37 c0       	rjmp	.+110    	; 0x9c <__bad_interrupt>
+  2e:	00 00       	nop
+  30:	35 c0       	rjmp	.+106    	; 0x9c <__bad_interrupt>
+  32:	00 00       	nop
+  34:	33 c0       	rjmp	.+102    	; 0x9c <__bad_interrupt>
+  36:	00 00       	nop
+  38:	31 c0       	rjmp	.+98     	; 0x9c <__bad_interrupt>
+  3a:	00 00       	nop
+  3c:	2f c0       	rjmp	.+94     	; 0x9c <__bad_interrupt>
+  3e:	00 00       	nop
+  40:	2d c0       	rjmp	.+90     	; 0x9c <__bad_interrupt>
+  42:	00 00       	nop
+  44:	2b c0       	rjmp	.+86     	; 0x9c <__bad_interrupt>
+  46:	00 00       	nop
+  48:	29 c0       	rjmp	.+82     	; 0x9c <__bad_interrupt>
+  4a:	00 00       	nop
+  4c:	27 c0       	rjmp	.+78     	; 0x9c <__bad_interrupt>
+  4e:	00 00       	nop
+  50:	25 c0       	rjmp	.+74     	; 0x9c <__bad_interrupt>
+  52:	00 00       	nop
+  54:	23 c0       	rjmp	.+70     	; 0x9c <__bad_interrupt>
+  56:	00 00       	nop
+  58:	21 c0       	rjmp	.+66     	; 0x9c <__bad_interrupt>
+  5a:	00 00       	nop
+  5c:	1f c0       	rjmp	.+62     	; 0x9c <__bad_interrupt>
+  5e:	00 00       	nop
+  60:	1d c0       	rjmp	.+58     	; 0x9c <__bad_interrupt>
+  62:	00 00       	nop
+  64:	1b c0       	rjmp	.+54     	; 0x9c <__bad_interrupt>
+  66:	00 00       	nop
+  68:	19 c0       	rjmp	.+50     	; 0x9c <__bad_interrupt>
+  6a:	00 00       	nop
+  6c:	17 c0       	rjmp	.+46     	; 0x9c <__bad_interrupt>
+  6e:	00 00       	nop
+  70:	15 c0       	rjmp	.+42     	; 0x9c <__bad_interrupt>
+  72:	00 00       	nop
+  74:	13 c0       	rjmp	.+38     	; 0x9c <__bad_interrupt>
+  76:	00 00       	nop
+  78:	11 c0       	rjmp	.+34     	; 0x9c <__bad_interrupt>
+  7a:	00 00       	nop
+  7c:	0f c0       	rjmp	.+30     	; 0x9c <__bad_interrupt>
+  7e:	00 00       	nop
+  80:	0d c0       	rjmp	.+26     	; 0x9c <__bad_interrupt>
+  82:	00 00       	nop
+  84:	0b c0       	rjmp	.+22     	; 0x9c <__bad_interrupt>
+  86:	00 00       	nop
+  88:	09 c0       	rjmp	.+18     	; 0x9c <__bad_interrupt>
+	...
+
+0000008c <__ctors_end>:
+  8c:	11 24       	eor	r1, r1
+  8e:	1f be       	out	0x3f, r1	; 63
+  90:	cf ef       	ldi	r28, 0xFF	; 255
+  92:	d0 e1       	ldi	r29, 0x10	; 16
+  94:	de bf       	out	0x3e, r29	; 62
+  96:	cd bf       	out	0x3d, r28	; 61
+  98:	15 d0       	rcall	.+42     	; 0xc4 <main>
+  9a:	30 c0       	rjmp	.+96     	; 0xfc <_exit>
+
+0000009c <__bad_interrupt>:
+  9c:	b1 cf       	rjmp	.-158    	; 0x0 <__vectors>
+
+0000009e <turn_on_LED_in_PWM_manner>:
+
+void turn_on_LED_in_PWM_manner(int dim)
+{
+	int i;
+	
+	PORTB = 0x01;				// LED 켜기
+  9e:	21 e0       	ldi	r18, 0x01	; 1
+  a0:	28 bb       	out	0x18, r18	; 24
+	
+	for(i = 0; i < 256; i++){
+  a2:	20 e0       	ldi	r18, 0x00	; 0
+  a4:	30 e0       	ldi	r19, 0x00	; 0
+		if(i > dim) PORTB = 0x00;		// 듀티 사이클을 넘어가면 LED 끄기
+  a6:	82 17       	cp	r24, r18
+  a8:	93 07       	cpc	r25, r19
+  aa:	0c f4       	brge	.+2      	; 0xae <turn_on_LED_in_PWM_manner+0x10>
+  ac:	18 ba       	out	0x18, r1	; 24
+	#else
+		//round up by default
+		__ticks_dc = (uint32_t)(ceil(fabs(__tmp)));
+	#endif
+
+	__builtin_avr_delay_cycles(__ticks_dc);
+  ae:	4a e6       	ldi	r20, 0x6A	; 106
+  b0:	4a 95       	dec	r20
+  b2:	f1 f7       	brne	.-4      	; 0xb0 <turn_on_LED_in_PWM_manner+0x12>
+  b4:	00 c0       	rjmp	.+0      	; 0xb6 <turn_on_LED_in_PWM_manner+0x18>
+{
+	int i;
+	
+	PORTB = 0x01;				// LED 켜기
+	
+	for(i = 0; i < 256; i++){
+  b6:	2f 5f       	subi	r18, 0xFF	; 255
+  b8:	3f 4f       	sbci	r19, 0xFF	; 255
+  ba:	21 15       	cp	r18, r1
+  bc:	41 e0       	ldi	r20, 0x01	; 1
+  be:	34 07       	cpc	r19, r20
+  c0:	91 f7       	brne	.-28     	; 0xa6 <turn_on_LED_in_PWM_manner+0x8>
+		if(i > dim) PORTB = 0x00;		// 듀티 사이클을 넘어가면 LED 끄기
+		_delay_us(LED_TIME);
+	}
+}
+  c2:	08 95       	ret
+
+000000c4 <main>:
+
+int main(void)
+{
+	DDRB = 0x01; 				// PB0 핀을 출력으로 설정
+  c4:	81 e0       	ldi	r24, 0x01	; 1
+  c6:	87 bb       	out	0x17, r24	; 23
+	
+	int dim = 0;				// 현재 LED 밝기
+	int direction = 1;			// 밝기 증가(1) 또는 감소(-1)
+  c8:	01 e0       	ldi	r16, 0x01	; 1
+  ca:	10 e0       	ldi	r17, 0x00	; 0
+
+int main(void)
+{
+	DDRB = 0x01; 				// PB0 핀을 출력으로 설정
+	
+	int dim = 0;				// 현재 LED 밝기
+  cc:	c0 e0       	ldi	r28, 0x00	; 0
+  ce:	d0 e0       	ldi	r29, 0x00	; 0
+		turn_on_LED_in_PWM_manner(dim);
+
+		dim += direction;			// 밝기 변화
+
+		if(dim == 0) direction = 1;
+		if(dim == 255) direction = -1;
+  d0:	cc 24       	eor	r12, r12
+  d2:	ca 94       	dec	r12
+  d4:	dd 24       	eor	r13, r13
+  d6:	da 94       	dec	r13
+	while(1){
+		turn_on_LED_in_PWM_manner(dim);
+
+		dim += direction;			// 밝기 변화
+
+		if(dim == 0) direction = 1;
+  d8:	ee 24       	eor	r14, r14
+  da:	e3 94       	inc	r14
+  dc:	f1 2c       	mov	r15, r1
+  de:	02 c0       	rjmp	.+4      	; 0xe4 <main+0x20>
+  e0:	0e 2d       	mov	r16, r14
+  e2:	1f 2d       	mov	r17, r15
+	
+	int dim = 0;				// 현재 LED 밝기
+	int direction = 1;			// 밝기 증가(1) 또는 감소(-1)
+	
+	while(1){
+		turn_on_LED_in_PWM_manner(dim);
+  e4:	ce 01       	movw	r24, r28
+  e6:	db df       	rcall	.-74     	; 0x9e <turn_on_LED_in_PWM_manner>
+
+		dim += direction;			// 밝기 변화
+  e8:	c0 0f       	add	r28, r16
+  ea:	d1 1f       	adc	r29, r17
+
+		if(dim == 0) direction = 1;
+  ec:	20 97       	sbiw	r28, 0x00	; 0
+  ee:	c1 f3       	breq	.-16     	; 0xe0 <main+0x1c>
+		if(dim == 255) direction = -1;
+  f0:	cf 3f       	cpi	r28, 0xFF	; 255
+  f2:	d1 05       	cpc	r29, r1
+  f4:	b9 f7       	brne	.-18     	; 0xe4 <main+0x20>
+  f6:	0c 2d       	mov	r16, r12
+  f8:	1d 2d       	mov	r17, r13
+  fa:	f4 cf       	rjmp	.-24     	; 0xe4 <main+0x20>
+
+000000fc <_exit>:
+  fc:	f8 94       	cli
+
+000000fe <__stop_program>:
+  fe:	ff cf       	rjmp	.-2      	; 0xfe <__stop_program>
